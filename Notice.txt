@@ -1,0 +1,3 @@
+if you want to use that project, you better assure that xmake is correctly installed on your device. That
+project is configured for Jetbrains Rider 2022 users, who don't allow the use of cmake files. Xmake
+is here to help you to manage your packages files. 
