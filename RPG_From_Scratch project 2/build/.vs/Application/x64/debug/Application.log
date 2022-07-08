@@ -1,0 +1,2 @@
+﻿  $xmake config -y  -P . -p windows -m debug -a x64 -o "build"
+  $xmake build -y  -P . -w "Application"
