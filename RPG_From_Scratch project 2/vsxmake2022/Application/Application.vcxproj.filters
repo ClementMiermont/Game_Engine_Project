@@ -12,11 +12,14 @@ xmake version 2.6.7+dev.b19dec5ac
     <Filter Include="Properties">
       <UniqueIdentifier>{CC7C6180-942D-056E-3227-E6A2B3FB19CD}</UniqueIdentifier>
     </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{04CCF0D3-2EF0-416E-960B-AE7879D46B6B}</UniqueIdentifier>
+    </Filter>
     <Filter Include="src\Core">
       <UniqueIdentifier>{E8F90DC6-569B-48FB-A769-59AC3D831AAC}</UniqueIdentifier>
     </Filter>
-    <Filter Include="include">
-      <UniqueIdentifier>{04CCF0D3-2EF0-416E-960B-AE7879D46B6B}</UniqueIdentifier>
+    <Filter Include="src\Physics">
+      <UniqueIdentifier>{E7890214-D40F-4DCA-B7F3-02D33980F21A}</UniqueIdentifier>
     </Filter>
     <Filter Include="graphics">
       <UniqueIdentifier>{1CABE5A3-811C-4493-BA78-B21155E12938}</UniqueIdentifier>
@@ -50,6 +53,9 @@ xmake version 2.6.7+dev.b19dec5ac
     <ClInclude Include="$(XmakeProjectDir)\include\TextureManager.hpp">
       <Filter>include</Filter>
     </ClInclude>
+    <ClInclude Include="$(XmakeProjectDir)\include\Vector2D.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
     <ClInclude Include="$(XmakeProjectDir)\graphics\Button_Play.png">
       <Filter>graphics</Filter>
     </ClInclude>
@@ -75,6 +81,9 @@ xmake version 2.6.7+dev.b19dec5ac
     </ClCompile>
     <ClCompile Include="$(XmakeProjectDir)\src\Main.cpp">
       <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="$(XmakeProjectDir)\src\Physics\Vector2D.cpp">
+      <Filter>src\Physics</Filter>
     </ClCompile>
 
 

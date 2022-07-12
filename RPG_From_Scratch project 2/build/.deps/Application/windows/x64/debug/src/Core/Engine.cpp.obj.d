@@ -1,11 +1,42 @@
 {
+    values = {
+        [[C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\HostX64\x64\cl.exe]],
+        {
+            "/EHsc",
+            "-nologo",
+            "-Zi",
+            "-FS",
+            [[-Fdbuild\windows\x64\debug\compile.Application.pdb]],
+            "-Od",
+            "-std:c++20",
+            "-Iinclude",
+            "-DSDL_MAIN_HANDLED",
+            "-DGLFW_INCLUDE_NONE",
+            "-external:W0",
+            [[-external:IC:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl_image\2.0.5\9479f9c7b55b4e95a3a1f9f250f8751c\include]],
+            "-external:W0",
+            [[-external:IC:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl_image\2.0.5\9479f9c7b55b4e95a3a1f9f250f8751c\include\SDL2]],
+            "-external:W0",
+            [[-external:IC:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl\2.0.20\42621af521d34628a083584cefc78328\include]],
+            "-external:W0",
+            [[-external:IC:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl\2.0.20\42621af521d34628a083584cefc78328\include\SDL2]],
+            "-external:W0",
+            [[-external:IC:\Users\cleme\AppData\Local\.xmake\packages\l\libspng\v0.7.1\6b022006e0ab4a379a90b6478c1c3a00\include]],
+            "-external:W0",
+            [[-external:IC:\Users\cleme\AppData\Local\.xmake\packages\z\zlib\v1.2.12\b5ea843dabd742168c9611e216a46175\include]],
+            "-external:W0",
+            [[-external:IC:\Users\cleme\AppData\Local\.xmake\packages\g\glm\0.9.9+8\8335bab7c0314ab9921440de58961aac\include]],
+            "-external:W0",
+            [[-external:IC:\Users\cleme\AppData\Local\.xmake\packages\g\glfw\3.3.7\faf2eb6608ea403991b8f94fbe65a71a\include]]
+        }
+    },
     depfiles_cl_json = "{\
     \"Version\": \"1.1\",\
     \"Data\": {\
-        \"Source\": \"e:\\\\bibliothèque jeu vidéo test\\\\projets rider\\\\rpg_from_scratch project 2\\\\src\\\\core\\\\engine.cpp\",\
+        \"Source\": \"e:\\\\bibliothèque jeu vidéo test\\\\projets rider\\\\sdl_rpg_from_scratch_github\\\\game_engine_project\\\\rpg_from_scratch project 2\\\\src\\\\core\\\\engine.cpp\",\
         \"ProvidedModule\": \"\",\
         \"Includes\": [\
-            \"e:\\\\bibliothèque jeu vidéo test\\\\projets rider\\\\rpg_from_scratch project 2\\\\include\\\\engine.hpp\",\
+            \"e:\\\\bibliothèque jeu vidéo test\\\\projets rider\\\\sdl_rpg_from_scratch_github\\\\game_engine_project\\\\rpg_from_scratch project 2\\\\include\\\\engine.hpp\",\
             \"c:\\\\program files\\\\microsoft visual studio\\\\2022\\\\community\\\\vc\\\\tools\\\\msvc\\\\14.31.31103\\\\include\\\\iostream\",\
             \"c:\\\\program files\\\\microsoft visual studio\\\\2022\\\\community\\\\vc\\\\tools\\\\msvc\\\\14.31.31103\\\\include\\\\yvals_core.h\",\
             \"c:\\\\program files\\\\microsoft visual studio\\\\2022\\\\community\\\\vc\\\\tools\\\\msvc\\\\14.31.31103\\\\include\\\\vcruntime.h\",\
@@ -271,7 +302,7 @@
             \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\l\\\\libsdl_image\\\\2.0.5\\\\9479f9c7b55b4e95a3a1f9f250f8751c\\\\include\\\\sdl2\\\\sdl_image.h\",\
             \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\l\\\\libsdl\\\\2.0.20\\\\42621af521d34628a083584cefc78328\\\\include\\\\sdl2\\\\begin_code.h\",\
             \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\l\\\\libsdl\\\\2.0.20\\\\42621af521d34628a083584cefc78328\\\\include\\\\sdl2\\\\close_code.h\",\
-            \"e:\\\\bibliothèque jeu vidéo test\\\\projets rider\\\\rpg_from_scratch project 2\\\\include\\\\texturemanager.hpp\",\
+            \"e:\\\\bibliothèque jeu vidéo test\\\\projets rider\\\\sdl_rpg_from_scratch_github\\\\game_engine_project\\\\rpg_from_scratch project 2\\\\include\\\\texturemanager.hpp\",\
             \"c:\\\\program files\\\\microsoft visual studio\\\\2022\\\\community\\\\vc\\\\tools\\\\msvc\\\\14.31.31103\\\\include\\\\map\",\
             \"c:\\\\program files\\\\microsoft visual studio\\\\2022\\\\community\\\\vc\\\\tools\\\\msvc\\\\14.31.31103\\\\include\\\\xtree\",\
             \"c:\\\\program files\\\\microsoft visual studio\\\\2022\\\\community\\\\vc\\\\tools\\\\msvc\\\\14.31.31103\\\\include\\\\xnode_handle.h\"\
@@ -280,32 +311,6 @@
         \"ImportedHeaderUnits\": []\
     }\
 }",
-    values = {
-        [[C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\HostX64\x64\cl.exe]],
-        {
-            "/EHsc",
-            "-nologo",
-            "-Zi",
-            "-FS",
-            [[-Fdbuild\windows\x64\debug\compile.Application.pdb]],
-            "-Od",
-            "-std:c++20",
-            "-Iinclude",
-            "-DSDL_MAIN_HANDLED",
-            "-external:W0",
-            [[-external:IC:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl_image\2.0.5\9479f9c7b55b4e95a3a1f9f250f8751c\include]],
-            "-external:W0",
-            [[-external:IC:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl_image\2.0.5\9479f9c7b55b4e95a3a1f9f250f8751c\include\SDL2]],
-            "-external:W0",
-            [[-external:IC:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl\2.0.20\42621af521d34628a083584cefc78328\include]],
-            "-external:W0",
-            [[-external:IC:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl\2.0.20\42621af521d34628a083584cefc78328\include\SDL2]],
-            "-external:W0",
-            [[-external:IC:\Users\cleme\AppData\Local\.xmake\packages\l\libspng\v0.7.1\6b022006e0ab4a379a90b6478c1c3a00\include]],
-            "-external:W0",
-            [[-external:IC:\Users\cleme\AppData\Local\.xmake\packages\z\zlib\v1.2.12\b5ea843dabd742168c9611e216a46175\include]]
-        }
-    },
     files = {
         [[src\Core\Engine.cpp]]
     }

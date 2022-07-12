@@ -8,7 +8,8 @@ set_languages("c++20")
 add_requires("libsdl 2.0.20", { configs = { shared = true }})
 add_requires("libsdl_image 2.0.5", { configs = { shared = true }})
 add_requires("libspng v0.7.1", { configs = { shared = true }})
-
+add_requires("glfw 3.3.7")
+add_requires("glm 0.9.9+8")
 
 local outputdir = "$(mode) = -$(arch)"
 
@@ -29,3 +30,6 @@ target("Application")
     add_packages("libsdl")
     add_packages("libsdl_image")
     add_packages("libspng")
+    add_packages("glm")
+    add_packages("glfw")
+   

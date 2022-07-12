@@ -65,7 +65,7 @@ void Engine::Render()
 
         TextureManager::getInstance()->Draw("Player", 100, 100, 56, 104);
         SDL_RenderPresent(Renderer);
-        
+            
     }
     
    
