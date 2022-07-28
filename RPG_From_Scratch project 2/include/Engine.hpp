@@ -2,8 +2,9 @@
 #define ENGINE_HPP
 
 #include <iostream>
-#include <SDL.h>
+#include <SDL2/SDL.h>
 #include <SDL_image.h>
+#include <glad/glad.h>
 
 inline int Screen_Width = 900;
 inline int Screen_Height = 800;

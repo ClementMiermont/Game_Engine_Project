@@ -1,9 +1,5 @@
 {
     cmdlines = {
-        "xmake project -k vsxmake",
-        "xmake ",
-        "xmake project -k vsxmake",
-        "xmake config -y -P . -p windows -m debug -a x64 -o build",
         "xmake build -y -P . -w Application",
         "xmake config -y -P . -p windows -m debug -a x64 -o build",
         "xmake build -y -P . -w Application",
@@ -64,6 +60,10 @@
         "xmake ",
         "xmake project -k vsxmake",
         "xmake ",
+        "xmake project -k vsxmake",
+        "xmake project",
+        "xmake project -k vsxmake",
+        "xmake project",
         "xmake project -k vsxmake"
     }
 }

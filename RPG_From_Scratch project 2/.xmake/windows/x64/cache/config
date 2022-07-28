@@ -1,12 +1,12 @@
 {
     mtimes = {
-        ["xmake.lua"] = 1657653747
+        ["xmake.lua"] = 1659030628
     },
-    recheck = true,
     options = {
+        buildir = "build",
         mode = "debug",
         plat = "windows",
-        arch = "x64",
-        buildir = "build"
-    }
+        arch = "x64"
+    },
+    recheck = true
 }
