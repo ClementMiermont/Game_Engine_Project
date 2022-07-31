@@ -1,1 +1,171 @@
-{ }
+{
+    find_programver = {
+        ["C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\cl.exe"] = false
+    },
+    ["lib.detect.has_flags"] = {
+        ["windows_x64_C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\cl.exe__cxx__/EHsc_-Od"] = true,
+        ["windows_x64_C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\cl.exe__cxx_cxflags_/EHsc_cl_sourceDependencies"] = true,
+        ["windows_x64_C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\cl.exe__cxx_cxflags_/EHsc_-std:c++20"] = true,
+        ["windows_x64_C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\cl.exe__cxx_cxflags_/EHsc_-FS -Fd"] = true,
+        ["windows_x64_C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\cl.exe__cxx_cxflags_/EHsc_cl_external_includedir"] = true
+    },
+    find_program_msvc_arch_x64_plat_windows_checktoolld = {
+        ["link.exe"] = [[C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\bin\HostX64\x64\link.exe]]
+    },
+    find_program = {
+        git = "git",
+        unzip = false,
+        dmd = false,
+        zig = false,
+        ["C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\cl.exe"] = [[C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\bin\HostX64\x64\cl.exe]],
+        gzip = false,
+        ["7z"] = [[C:\Program Files\xmake\winenv\bin\7z]],
+        ["cl.exe"] = [[C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\bin\HostX64\x64\cl.exe]],
+        gdc = false,
+        ldc2 = false
+    },
+    find_program_fetch_package_system = {
+        cmake = [[C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake]]
+    },
+    find_programver_fetch_package_xmake = {
+        ["C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake"] = "3.22.22040401-MSVC"
+    },
+    find_program_msvc_arch_x64_plat_windows_checktoolcxx = {
+        ["cl.exe"] = [[C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\bin\HostX64\x64\cl.exe]]
+    },
+    find_programver_fetch_package_system = {
+        ["C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake"] = "3.22.22040401-MSVC"
+    },
+    find_package_windows_x64_fetch_package_xmake = {
+        ["xmake::glad_d58ee23747ff411aae74b40986460499_release_v0.1.36_external"] = {
+            linkdirs = {
+                [[C:\Users\cleme\AppData\Local\.xmake\packages\g\glad\v0.1.36\d58ee23747ff411aae74b40986460499\lib]]
+            },
+            links = {
+                "glad"
+            },
+            static = true,
+            version = "v0.1.36",
+            license = "MIT",
+            sysincludedirs = {
+                [[C:\Users\cleme\AppData\Local\.xmake\packages\g\glad\v0.1.36\d58ee23747ff411aae74b40986460499\include]]
+            },
+            libfiles = {
+                [[C:\Users\cleme\AppData\Local\.xmake\packages\g\glad\v0.1.36\d58ee23747ff411aae74b40986460499\lib\glad.lib]]
+            }
+        },
+        ["xmake::zlib_b5ea843dabd742168c9611e216a46175_release_v1.2.12_external"] = {
+            linkdirs = {
+                [[C:\Users\cleme\AppData\Local\.xmake\packages\z\zlib\v1.2.12\b5ea843dabd742168c9611e216a46175\lib]]
+            },
+            links = {
+                "zlib"
+            },
+            sysincludedirs = {
+                [[C:\Users\cleme\AppData\Local\.xmake\packages\z\zlib\v1.2.12\b5ea843dabd742168c9611e216a46175\include]]
+            },
+            libfiles = {
+                [[C:\Users\cleme\AppData\Local\.xmake\packages\z\zlib\v1.2.12\b5ea843dabd742168c9611e216a46175\lib\zlib.lib]]
+            }
+        },
+        ["xmake::glfw_faf2eb6608ea403991b8f94fbe65a71a_release_3.3.7_external"] = {
+            static = true,
+            syslinks = {
+                "user32",
+                "shell32",
+                "gdi32"
+            },
+            sysincludedirs = {
+                [[C:\Users\cleme\AppData\Local\.xmake\packages\g\glfw\3.3.7\faf2eb6608ea403991b8f94fbe65a71a\include]]
+            },
+            libfiles = {
+                [[C:\Users\cleme\AppData\Local\.xmake\packages\g\glfw\3.3.7\faf2eb6608ea403991b8f94fbe65a71a\lib\glfw3.lib]]
+            },
+            defines = "GLFW_INCLUDE_NONE",
+            license = "zlib",
+            version = "3.3.7",
+            links = {
+                "glfw3"
+            },
+            linkdirs = {
+                [[C:\Users\cleme\AppData\Local\.xmake\packages\g\glfw\3.3.7\faf2eb6608ea403991b8f94fbe65a71a\lib]]
+            }
+        },
+        ["xmake::libsdl_42621af521d34628a083584cefc78328_release_2.0.20_external"] = {
+            defines = "SDL_MAIN_HANDLED",
+            linkdirs = {
+                [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl\2.0.20\42621af521d34628a083584cefc78328\lib]]
+            },
+            syslinks = {
+                "gdi32",
+                "user32",
+                "winmm",
+                "shell32"
+            },
+            links = {
+                "SDL2main",
+                "SDL2"
+            },
+            sysincludedirs = {
+                [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl\2.0.20\42621af521d34628a083584cefc78328\include]],
+                [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl\2.0.20\42621af521d34628a083584cefc78328\include\SDL2]]
+            },
+            libfiles = {
+                [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl\2.0.20\42621af521d34628a083584cefc78328\lib\SDL2main.lib]],
+                [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl\2.0.20\42621af521d34628a083584cefc78328\lib\SDL2.lib]],
+                [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl\2.0.20\42621af521d34628a083584cefc78328\bin\SDL2.dll]]
+            }
+        },
+        ["xmake::glm_8335bab7c0314ab9921440de58961aac_release_0.9.9+8_external"] = {
+            sysincludedirs = {
+                [[C:\Users\cleme\AppData\Local\.xmake\packages\g\glm\0.9.9+8\8335bab7c0314ab9921440de58961aac\include]]
+            },
+            version = "0.9.9+8"
+        },
+        ["xmake::libspng_6b022006e0ab4a379a90b6478c1c3a00_release_v0.7.1_external"] = {
+            linkdirs = {
+                [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libspng\v0.7.1\6b022006e0ab4a379a90b6478c1c3a00\lib]]
+            },
+            shared = true,
+            static = true,
+            version = "v0.7.1",
+            links = {
+                "spng"
+            },
+            sysincludedirs = {
+                [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libspng\v0.7.1\6b022006e0ab4a379a90b6478c1c3a00\include]]
+            },
+            libfiles = {
+                [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libspng\v0.7.1\6b022006e0ab4a379a90b6478c1c3a00\lib\spng.lib]],
+                [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libspng\v0.7.1\6b022006e0ab4a379a90b6478c1c3a00\bin\spng.dll]]
+            }
+        },
+        ["xmake::libsdl_image_9479f9c7b55b4e95a3a1f9f250f8751c_release_2.0.5_external"] = {
+            linkdirs = {
+                [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl_image\2.0.5\9479f9c7b55b4e95a3a1f9f250f8751c\lib]]
+            },
+            shared = true,
+            static = true,
+            version = "2.0.5",
+            links = {
+                "SDL2_image"
+            },
+            sysincludedirs = {
+                [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl_image\2.0.5\9479f9c7b55b4e95a3a1f9f250f8751c\include]],
+                [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl_image\2.0.5\9479f9c7b55b4e95a3a1f9f250f8751c\include\SDL2]]
+            },
+            libfiles = {
+                [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl_image\2.0.5\9479f9c7b55b4e95a3a1f9f250f8751c\lib\SDL2_image.lib]],
+                [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl_image\2.0.5\9479f9c7b55b4e95a3a1f9f250f8751c\bin\libjpeg-9.dll]],
+                [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl_image\2.0.5\9479f9c7b55b4e95a3a1f9f250f8751c\bin\libpng16-16.dll]],
+                [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl_image\2.0.5\9479f9c7b55b4e95a3a1f9f250f8751c\bin\libtiff-5.dll]],
+                [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl_image\2.0.5\9479f9c7b55b4e95a3a1f9f250f8751c\bin\libwebp-7.dll]],
+                [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl_image\2.0.5\9479f9c7b55b4e95a3a1f9f250f8751c\bin\SDL2_image.dll]],
+                [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl_image\2.0.5\9479f9c7b55b4e95a3a1f9f250f8751c\bin\zlib1.dll]]
+            }
+        }
+    },
+    find_program_fetch_package_xmake = {
+        cmake = [[C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake]]
+    }
+}
