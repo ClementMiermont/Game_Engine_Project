@@ -1,7 +1,7 @@
 #include <iostream>
 #include"Engine.hpp"
 #include"GLFW/glfw3.h"
-
+#include "wx/wx.h"
     
 int main (int argc, char** argv)
 {
