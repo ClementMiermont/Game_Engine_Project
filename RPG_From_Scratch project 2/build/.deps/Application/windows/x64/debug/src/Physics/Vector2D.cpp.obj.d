@@ -1,4 +1,7 @@
 {
+    files = {
+        [[src\Physics\Vector2D.cpp]]
+    },
     depfiles_cl_json = "{\
     \"Version\": \"1.1\",\
     \"Data\": {\
@@ -119,9 +122,6 @@
         \"ImportedHeaderUnits\": []\
     }\
 }",
-    files = {
-        [[src\Physics\Vector2D.cpp]]
-    },
     values = {
         [[C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\HostX64\x64\cl.exe]],
         {
@@ -135,6 +135,10 @@
             "-Iinclude",
             "-DSDL_MAIN_HANDLED",
             "-DGLFW_INCLUDE_NONE",
+            "-DWXUSINGDLL",
+            "-D__WXMSW__",
+            "-DwxSUFFIX=ud",
+            "-DwxMSVC_VERSION=14x",
             "-external:W0",
             [[-external:IC:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl_image\2.0.5\9479f9c7b55b4e95a3a1f9f250f8751c\include]],
             "-external:W0",
@@ -150,9 +154,13 @@
             "-external:W0",
             [[-external:IC:\Users\cleme\AppData\Local\.xmake\packages\g\glm\0.9.9+8\8335bab7c0314ab9921440de58961aac\include]],
             "-external:W0",
-            [[-external:IC:\Users\cleme\AppData\Local\.xmake\packages\g\glfw\3.3.7\faf2eb6608ea403991b8f94fbe65a71a\include]],
+            [[-external:IC:\Users\cleme\AppData\Local\.xmake\packages\g\glfw\3.3.7\2fbb1b2ee9904256a596a74ae04c4cfa\include]],
             "-external:W0",
-            [[-external:IC:\Users\cleme\AppData\Local\.xmake\packages\g\glad\v0.1.36\d58ee23747ff411aae74b40986460499\include]]
+            [[-external:IC:\Users\cleme\AppData\Local\.xmake\packages\g\glad\v0.1.36\d58ee23747ff411aae74b40986460499\include]],
+            "-external:W0",
+            [[-external:IC:\Users\cleme\AppData\Local\.xmake\packages\e\entt\v3.10.0\3cdaab47d550458d9d8d0385740299bb\include]],
+            "-external:W0",
+            [[-external:IC:\Users\cleme\AppData\Local\.xmake\packages\w\wxwidgets\3.2.0\9d50ab796c5f465da56839488309f433\include]]
         }
     }
 }
