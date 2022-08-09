@@ -13,7 +13,7 @@ add_requires("glfw 3.3.7")
 add_requires("glm 0.9.9+8")
 add_requires("glad v0.1.36")
 add_requires("entt v3.10.0")
-add_requires("wxwidgets 3.2.0", { configs = { shared = true }})
+add_requires("wxwidgets 3.2.0")
 
 local outputdir = "$(mode) = -$(arch)"
 
