@@ -1,4 +1,48 @@
 {
+    files = {
+        [[src\Main.cpp]]
+    },
+    values = {
+        [[C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\HostX64\x64\cl.exe]],
+        {
+            "/EHsc",
+            "-nologo",
+            "-Zi",
+            "-FS",
+            [[-Fdbuild\windows\x64\debug\compile.Application.pdb]],
+            "-Od",
+            "-std:c++20",
+            "-Iinclude",
+            "-DSDL_MAIN_HANDLED",
+            "-DGLFW_INCLUDE_NONE",
+            "-DWXUSINGDLL",
+            "-D__WXMSW__",
+            "-DwxSUFFIX=ud",
+            "-DwxMSVC_VERSION=14x",
+            "-external:W0",
+            [[-external:IC:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl_image\2.0.5\9479f9c7b55b4e95a3a1f9f250f8751c\include]],
+            "-external:W0",
+            [[-external:IC:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl_image\2.0.5\9479f9c7b55b4e95a3a1f9f250f8751c\include\SDL2]],
+            "-external:W0",
+            [[-external:IC:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl\2.0.20\42621af521d34628a083584cefc78328\include]],
+            "-external:W0",
+            [[-external:IC:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl\2.0.20\42621af521d34628a083584cefc78328\include\SDL2]],
+            "-external:W0",
+            [[-external:IC:\Users\cleme\AppData\Local\.xmake\packages\l\libspng\v0.7.1\6b022006e0ab4a379a90b6478c1c3a00\include]],
+            "-external:W0",
+            [[-external:IC:\Users\cleme\AppData\Local\.xmake\packages\z\zlib\v1.2.12\b5ea843dabd742168c9611e216a46175\include]],
+            "-external:W0",
+            [[-external:IC:\Users\cleme\AppData\Local\.xmake\packages\g\glm\0.9.9+8\8335bab7c0314ab9921440de58961aac\include]],
+            "-external:W0",
+            [[-external:IC:\Users\cleme\AppData\Local\.xmake\packages\g\glfw\3.3.7\2fbb1b2ee9904256a596a74ae04c4cfa\include]],
+            "-external:W0",
+            [[-external:IC:\Users\cleme\AppData\Local\.xmake\packages\g\glad\v0.1.36\d58ee23747ff411aae74b40986460499\include]],
+            "-external:W0",
+            [[-external:IC:\Users\cleme\AppData\Local\.xmake\packages\e\entt\v3.10.0\3cdaab47d550458d9d8d0385740299bb\include]],
+            "-external:W0",
+            [[-external:IC:\Users\cleme\AppData\Local\.xmake\packages\w\wxwidgets\3.2.0\9d50ab796c5f465da56839488309f433\include]]
+        }
+    },
     depfiles_cl_json = "{\
     \"Version\": \"1.1\",\
     \"Data\": {\
@@ -273,6 +317,7 @@
             \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\l\\\\libsdl\\\\2.0.20\\\\42621af521d34628a083584cefc78328\\\\include\\\\sdl2\\\\close_code.h\",\
             \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\g\\\\glad\\\\v0.1.36\\\\d58ee23747ff411aae74b40986460499\\\\include\\\\glad\\\\glad.h\",\
             \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\g\\\\glad\\\\v0.1.36\\\\d58ee23747ff411aae74b40986460499\\\\include\\\\khr\\\\khrplatform.h\",\
+            \"e:\\\\bibliothèque jeu vidéo test\\\\projets rider\\\\rpg_from_scratch project 2\\\\game_engine_project\\\\rpg_from_scratch project 2\\\\include\\\\opengltest.h\",\
             \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\g\\\\glfw\\\\3.3.7\\\\2fbb1b2ee9904256a596a74ae04c4cfa\\\\include\\\\glfw\\\\glfw3.h\",\
             \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\wx.h\",\
             \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\defs.h\",\
@@ -938,49 +983,5 @@
         \"ImportedModules\": [],\
         \"ImportedHeaderUnits\": []\
     }\
-}",
-    files = {
-        [[src\Main.cpp]]
-    },
-    values = {
-        [[C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\HostX64\x64\cl.exe]],
-        {
-            "/EHsc",
-            "-nologo",
-            "-Zi",
-            "-FS",
-            [[-Fdbuild\windows\x64\debug\compile.Application.pdb]],
-            "-Od",
-            "-std:c++20",
-            "-Iinclude",
-            "-DSDL_MAIN_HANDLED",
-            "-DGLFW_INCLUDE_NONE",
-            "-DWXUSINGDLL",
-            "-D__WXMSW__",
-            "-DwxSUFFIX=ud",
-            "-DwxMSVC_VERSION=14x",
-            "-external:W0",
-            [[-external:IC:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl_image\2.0.5\9479f9c7b55b4e95a3a1f9f250f8751c\include]],
-            "-external:W0",
-            [[-external:IC:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl_image\2.0.5\9479f9c7b55b4e95a3a1f9f250f8751c\include\SDL2]],
-            "-external:W0",
-            [[-external:IC:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl\2.0.20\42621af521d34628a083584cefc78328\include]],
-            "-external:W0",
-            [[-external:IC:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl\2.0.20\42621af521d34628a083584cefc78328\include\SDL2]],
-            "-external:W0",
-            [[-external:IC:\Users\cleme\AppData\Local\.xmake\packages\l\libspng\v0.7.1\6b022006e0ab4a379a90b6478c1c3a00\include]],
-            "-external:W0",
-            [[-external:IC:\Users\cleme\AppData\Local\.xmake\packages\z\zlib\v1.2.12\b5ea843dabd742168c9611e216a46175\include]],
-            "-external:W0",
-            [[-external:IC:\Users\cleme\AppData\Local\.xmake\packages\g\glm\0.9.9+8\8335bab7c0314ab9921440de58961aac\include]],
-            "-external:W0",
-            [[-external:IC:\Users\cleme\AppData\Local\.xmake\packages\g\glfw\3.3.7\2fbb1b2ee9904256a596a74ae04c4cfa\include]],
-            "-external:W0",
-            [[-external:IC:\Users\cleme\AppData\Local\.xmake\packages\g\glad\v0.1.36\d58ee23747ff411aae74b40986460499\include]],
-            "-external:W0",
-            [[-external:IC:\Users\cleme\AppData\Local\.xmake\packages\e\entt\v3.10.0\3cdaab47d550458d9d8d0385740299bb\include]],
-            "-external:W0",
-            [[-external:IC:\Users\cleme\AppData\Local\.xmake\packages\w\wxwidgets\3.2.0\9d50ab796c5f465da56839488309f433\include]]
-        }
-    }
+}"
 }

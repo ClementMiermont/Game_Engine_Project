@@ -1,1 +1,333 @@
-{ }
+{
+    libsdl = {
+        defines = "SDL_MAIN_HANDLED",
+        sysincludedirs = {
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl\2.0.20\42621af521d34628a083584cefc78328\include]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl\2.0.20\42621af521d34628a083584cefc78328\include\SDL2]]
+        },
+        __installdir = [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl\2.0.20\42621af521d34628a083584cefc78328]],
+        __extrainfo = {
+            configs = { }
+        },
+        __requirestr = "libsdl 2.0.20",
+        envs = {
+            PATH = {
+                [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl\2.0.20\42621af521d34628a083584cefc78328\bin]]
+            }
+        },
+        libfiles = {
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl\2.0.20\42621af521d34628a083584cefc78328\lib\SDL2main.lib]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl\2.0.20\42621af521d34628a083584cefc78328\lib\SDL2.lib]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl\2.0.20\42621af521d34628a083584cefc78328\bin\SDL2.dll]]
+        },
+        syslinks = {
+            "gdi32",
+            "user32",
+            "winmm",
+            "shell32"
+        },
+        links = {
+            "SDL2main",
+            "SDL2"
+        },
+        __enabled = true,
+        linkdirs = [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl\2.0.20\42621af521d34628a083584cefc78328\lib]]
+    },
+    libspng = {
+        links = {
+            "spng",
+            "zlib"
+        },
+        sysincludedirs = {
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libspng\v0.7.1\6b022006e0ab4a379a90b6478c1c3a00\include]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\z\zlib\v1.2.12\b5ea843dabd742168c9611e216a46175\include]]
+        },
+        __installdir = [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libspng\v0.7.1\6b022006e0ab4a379a90b6478c1c3a00]],
+        __extrainfo = {
+            configs = {
+                shared = true,
+                vs_runtime = "MT"
+            }
+        },
+        static = true,
+        __requirestr = "libspng v0.7.1",
+        shared = true,
+        libfiles = {
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libspng\v0.7.1\6b022006e0ab4a379a90b6478c1c3a00\lib\spng.lib]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libspng\v0.7.1\6b022006e0ab4a379a90b6478c1c3a00\bin\spng.dll]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\z\zlib\v1.2.12\b5ea843dabd742168c9611e216a46175\lib\zlib.lib]]
+        },
+        envs = {
+            PATH = {
+                [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libspng\v0.7.1\6b022006e0ab4a379a90b6478c1c3a00\bin]],
+                [[C:\Users\cleme\AppData\Local\.xmake\packages\z\zlib\v1.2.12\b5ea843dabd742168c9611e216a46175\bin]]
+            }
+        },
+        version = "v0.7.1",
+        __enabled = true,
+        linkdirs = {
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libspng\v0.7.1\6b022006e0ab4a379a90b6478c1c3a00\lib]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\z\zlib\v1.2.12\b5ea843dabd742168c9611e216a46175\lib]]
+        }
+    },
+    glfw = {
+        links = {
+            "glfw3",
+            "opengl32"
+        },
+        sysincludedirs = [[C:\Users\cleme\AppData\Local\.xmake\packages\g\glfw\3.3.7\2fbb1b2ee9904256a596a74ae04c4cfa\include]],
+        envs = {
+            PATH = {
+                [[C:\Users\cleme\AppData\Local\.xmake\packages\g\glfw\3.3.7\2fbb1b2ee9904256a596a74ae04c4cfa\bin]],
+                [[C:\Users\cleme\AppData\Local\.xmake\packages\c\cmake\3.22.1\33174cd752934705b9e583491cc925c6\bin]],
+                [[C:\Users\cleme\AppData\Local\.xmake\packages\o\opengl\latest\8574311f4b544fa89a3d8c3ee79d1929\bin]]
+            }
+        },
+        __installdir = [[C:\Users\cleme\AppData\Local\.xmake\packages\g\glfw\3.3.7\2fbb1b2ee9904256a596a74ae04c4cfa]],
+        static = true,
+        __requirestr = "glfw 3.3.7",
+        license = "zlib",
+        defines = "GLFW_INCLUDE_NONE",
+        libfiles = [[C:\Users\cleme\AppData\Local\.xmake\packages\g\glfw\3.3.7\2fbb1b2ee9904256a596a74ae04c4cfa\lib\glfw3.lib]],
+        syslinks = {
+            "user32",
+            "shell32",
+            "gdi32"
+        },
+        version = "3.3.7",
+        __enabled = true,
+        linkdirs = [[C:\Users\cleme\AppData\Local\.xmake\packages\g\glfw\3.3.7\2fbb1b2ee9904256a596a74ae04c4cfa\lib]]
+    },
+    glad = {
+        links = "glad",
+        sysincludedirs = [[C:\Users\cleme\AppData\Local\.xmake\packages\g\glad\v0.1.36\d58ee23747ff411aae74b40986460499\include]],
+        __installdir = [[C:\Users\cleme\AppData\Local\.xmake\packages\g\glad\v0.1.36\d58ee23747ff411aae74b40986460499]],
+        static = true,
+        __requirestr = "glad v0.1.36",
+        license = "MIT",
+        libfiles = [[C:\Users\cleme\AppData\Local\.xmake\packages\g\glad\v0.1.36\d58ee23747ff411aae74b40986460499\lib\glad.lib]],
+        version = "v0.1.36",
+        envs = {
+            PATH = {
+                [[C:\Users\cleme\AppData\Local\.xmake\packages\g\glad\v0.1.36\d58ee23747ff411aae74b40986460499\bin]]
+            }
+        },
+        __enabled = true,
+        linkdirs = [[C:\Users\cleme\AppData\Local\.xmake\packages\g\glad\v0.1.36\d58ee23747ff411aae74b40986460499\lib]]
+    },
+    entt = {
+        __requirestr = "entt v3.10.0",
+        sysincludedirs = [[C:\Users\cleme\AppData\Local\.xmake\packages\e\entt\v3.10.0\3cdaab47d550458d9d8d0385740299bb\include]],
+        envs = {
+            PATH = {
+                [[C:\Users\cleme\AppData\Local\.xmake\packages\e\entt\v3.10.0\3cdaab47d550458d9d8d0385740299bb\bin]],
+                [[C:\Users\cleme\AppData\Local\.xmake\packages\c\cmake\3.22.1\33174cd752934705b9e583491cc925c6\bin]]
+            }
+        },
+        version = "v3.10.0",
+        __enabled = true,
+        __installdir = [[C:\Users\cleme\AppData\Local\.xmake\packages\e\entt\v3.10.0\3cdaab47d550458d9d8d0385740299bb]]
+    },
+    wxwidgets = {
+        links = {
+            "wxbase32u",
+            "wxbase32ud",
+            "wxbase32ud_net",
+            "wxbase32ud_xml",
+            "wxbase32u_net",
+            "wxbase32u_xml",
+            "wxexpat",
+            "wxexpatd",
+            "wxjpeg",
+            "wxjpegd",
+            "wxmsw32ud_adv",
+            "wxmsw32ud_aui",
+            "wxmsw32ud_core",
+            "wxmsw32ud_gl",
+            "wxmsw32ud_html",
+            "wxmsw32ud_media",
+            "wxmsw32ud_propgrid",
+            "wxmsw32ud_qa",
+            "wxmsw32ud_ribbon",
+            "wxmsw32ud_richtext",
+            "wxmsw32ud_stc",
+            "wxmsw32ud_webview",
+            "wxmsw32ud_xrc",
+            "wxmsw32u_adv",
+            "wxmsw32u_aui",
+            "wxmsw32u_core",
+            "wxmsw32u_gl",
+            "wxmsw32u_html",
+            "wxmsw32u_media",
+            "wxmsw32u_propgrid",
+            "wxmsw32u_qa",
+            "wxmsw32u_ribbon",
+            "wxmsw32u_richtext",
+            "wxmsw32u_stc",
+            "wxmsw32u_webview",
+            "wxmsw32u_xrc",
+            "wxpng",
+            "wxpngd",
+            "wxregexu",
+            "wxregexud",
+            "wxscintilla",
+            "wxscintillad",
+            "wxtiff",
+            "wxtiffd",
+            "wxzlib",
+            "wxzlibd"
+        },
+        sysincludedirs = [[C:\Users\cleme\AppData\Local\.xmake\packages\w\wxwidgets\3.2.0\9d50ab796c5f465da56839488309f433\include]],
+        __installdir = [[C:\Users\cleme\AppData\Local\.xmake\packages\w\wxwidgets\3.2.0\9d50ab796c5f465da56839488309f433]],
+        static = true,
+        __requirestr = "wxwidgets 3.2.0",
+        envs = {
+            PATH = {
+                [[C:\Users\cleme\AppData\Local\.xmake\packages\w\wxwidgets\3.2.0\9d50ab796c5f465da56839488309f433\bin]]
+            }
+        },
+        version = "3.2.0",
+        shared = true,
+        libfiles = {
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\w\wxwidgets\3.2.0\9d50ab796c5f465da56839488309f433\lib\wxbase32u.lib]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\w\wxwidgets\3.2.0\9d50ab796c5f465da56839488309f433\lib\wxbase32ud.lib]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\w\wxwidgets\3.2.0\9d50ab796c5f465da56839488309f433\lib\wxbase32ud_net.lib]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\w\wxwidgets\3.2.0\9d50ab796c5f465da56839488309f433\lib\wxbase32ud_xml.lib]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\w\wxwidgets\3.2.0\9d50ab796c5f465da56839488309f433\lib\wxbase32u_net.lib]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\w\wxwidgets\3.2.0\9d50ab796c5f465da56839488309f433\lib\wxbase32u_xml.lib]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\w\wxwidgets\3.2.0\9d50ab796c5f465da56839488309f433\lib\wxexpat.lib]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\w\wxwidgets\3.2.0\9d50ab796c5f465da56839488309f433\lib\wxexpatd.lib]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\w\wxwidgets\3.2.0\9d50ab796c5f465da56839488309f433\lib\wxjpeg.lib]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\w\wxwidgets\3.2.0\9d50ab796c5f465da56839488309f433\lib\wxjpegd.lib]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\w\wxwidgets\3.2.0\9d50ab796c5f465da56839488309f433\lib\wxmsw32ud_adv.lib]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\w\wxwidgets\3.2.0\9d50ab796c5f465da56839488309f433\lib\wxmsw32ud_aui.lib]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\w\wxwidgets\3.2.0\9d50ab796c5f465da56839488309f433\lib\wxmsw32ud_core.lib]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\w\wxwidgets\3.2.0\9d50ab796c5f465da56839488309f433\lib\wxmsw32ud_gl.lib]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\w\wxwidgets\3.2.0\9d50ab796c5f465da56839488309f433\lib\wxmsw32ud_html.lib]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\w\wxwidgets\3.2.0\9d50ab796c5f465da56839488309f433\lib\wxmsw32ud_media.lib]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\w\wxwidgets\3.2.0\9d50ab796c5f465da56839488309f433\lib\wxmsw32ud_propgrid.lib]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\w\wxwidgets\3.2.0\9d50ab796c5f465da56839488309f433\lib\wxmsw32ud_qa.lib]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\w\wxwidgets\3.2.0\9d50ab796c5f465da56839488309f433\lib\wxmsw32ud_ribbon.lib]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\w\wxwidgets\3.2.0\9d50ab796c5f465da56839488309f433\lib\wxmsw32ud_richtext.lib]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\w\wxwidgets\3.2.0\9d50ab796c5f465da56839488309f433\lib\wxmsw32ud_stc.lib]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\w\wxwidgets\3.2.0\9d50ab796c5f465da56839488309f433\lib\wxmsw32ud_webview.lib]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\w\wxwidgets\3.2.0\9d50ab796c5f465da56839488309f433\lib\wxmsw32ud_xrc.lib]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\w\wxwidgets\3.2.0\9d50ab796c5f465da56839488309f433\lib\wxmsw32u_adv.lib]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\w\wxwidgets\3.2.0\9d50ab796c5f465da56839488309f433\lib\wxmsw32u_aui.lib]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\w\wxwidgets\3.2.0\9d50ab796c5f465da56839488309f433\lib\wxmsw32u_core.lib]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\w\wxwidgets\3.2.0\9d50ab796c5f465da56839488309f433\lib\wxmsw32u_gl.lib]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\w\wxwidgets\3.2.0\9d50ab796c5f465da56839488309f433\lib\wxmsw32u_html.lib]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\w\wxwidgets\3.2.0\9d50ab796c5f465da56839488309f433\lib\wxmsw32u_media.lib]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\w\wxwidgets\3.2.0\9d50ab796c5f465da56839488309f433\lib\wxmsw32u_propgrid.lib]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\w\wxwidgets\3.2.0\9d50ab796c5f465da56839488309f433\lib\wxmsw32u_qa.lib]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\w\wxwidgets\3.2.0\9d50ab796c5f465da56839488309f433\lib\wxmsw32u_ribbon.lib]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\w\wxwidgets\3.2.0\9d50ab796c5f465da56839488309f433\lib\wxmsw32u_richtext.lib]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\w\wxwidgets\3.2.0\9d50ab796c5f465da56839488309f433\lib\wxmsw32u_stc.lib]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\w\wxwidgets\3.2.0\9d50ab796c5f465da56839488309f433\lib\wxmsw32u_webview.lib]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\w\wxwidgets\3.2.0\9d50ab796c5f465da56839488309f433\lib\wxmsw32u_xrc.lib]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\w\wxwidgets\3.2.0\9d50ab796c5f465da56839488309f433\lib\wxpng.lib]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\w\wxwidgets\3.2.0\9d50ab796c5f465da56839488309f433\lib\wxpngd.lib]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\w\wxwidgets\3.2.0\9d50ab796c5f465da56839488309f433\lib\wxregexu.lib]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\w\wxwidgets\3.2.0\9d50ab796c5f465da56839488309f433\lib\wxregexud.lib]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\w\wxwidgets\3.2.0\9d50ab796c5f465da56839488309f433\lib\wxscintilla.lib]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\w\wxwidgets\3.2.0\9d50ab796c5f465da56839488309f433\lib\wxscintillad.lib]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\w\wxwidgets\3.2.0\9d50ab796c5f465da56839488309f433\lib\wxtiff.lib]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\w\wxwidgets\3.2.0\9d50ab796c5f465da56839488309f433\lib\wxtiffd.lib]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\w\wxwidgets\3.2.0\9d50ab796c5f465da56839488309f433\lib\wxzlib.lib]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\w\wxwidgets\3.2.0\9d50ab796c5f465da56839488309f433\lib\wxzlibd.lib]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\w\wxwidgets\3.2.0\9d50ab796c5f465da56839488309f433\bin\wxbase32ud_net_vc14x_x64.dll]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\w\wxwidgets\3.2.0\9d50ab796c5f465da56839488309f433\bin\wxbase32ud_vc14x_x64.dll]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\w\wxwidgets\3.2.0\9d50ab796c5f465da56839488309f433\bin\wxbase32ud_xml_vc14x_x64.dll]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\w\wxwidgets\3.2.0\9d50ab796c5f465da56839488309f433\bin\wxbase32u_net_vc14x_x64.dll]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\w\wxwidgets\3.2.0\9d50ab796c5f465da56839488309f433\bin\wxbase32u_vc14x_x64.dll]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\w\wxwidgets\3.2.0\9d50ab796c5f465da56839488309f433\bin\wxbase32u_xml_vc14x_x64.dll]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\w\wxwidgets\3.2.0\9d50ab796c5f465da56839488309f433\bin\wxmsw32ud_adv_vc14x_x64.dll]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\w\wxwidgets\3.2.0\9d50ab796c5f465da56839488309f433\bin\wxmsw32ud_aui_vc14x_x64.dll]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\w\wxwidgets\3.2.0\9d50ab796c5f465da56839488309f433\bin\wxmsw32ud_core_vc14x_x64.dll]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\w\wxwidgets\3.2.0\9d50ab796c5f465da56839488309f433\bin\wxmsw32ud_gl_vc14x_x64.dll]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\w\wxwidgets\3.2.0\9d50ab796c5f465da56839488309f433\bin\wxmsw32ud_html_vc14x_x64.dll]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\w\wxwidgets\3.2.0\9d50ab796c5f465da56839488309f433\bin\wxmsw32ud_media_vc14x_x64.dll]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\w\wxwidgets\3.2.0\9d50ab796c5f465da56839488309f433\bin\wxmsw32ud_propgrid_vc14x_x64.dll]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\w\wxwidgets\3.2.0\9d50ab796c5f465da56839488309f433\bin\wxmsw32ud_qa_vc14x_x64.dll]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\w\wxwidgets\3.2.0\9d50ab796c5f465da56839488309f433\bin\wxmsw32ud_ribbon_vc14x_x64.dll]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\w\wxwidgets\3.2.0\9d50ab796c5f465da56839488309f433\bin\wxmsw32ud_richtext_vc14x_x64.dll]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\w\wxwidgets\3.2.0\9d50ab796c5f465da56839488309f433\bin\wxmsw32ud_stc_vc14x_x64.dll]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\w\wxwidgets\3.2.0\9d50ab796c5f465da56839488309f433\bin\wxmsw32ud_webview_vc14x_x64.dll]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\w\wxwidgets\3.2.0\9d50ab796c5f465da56839488309f433\bin\wxmsw32ud_xrc_vc14x_x64.dll]]
+        },
+        defines = {
+            "WXUSINGDLL",
+            "__WXMSW__",
+            "wxSUFFIX=ud",
+            "wxMSVC_VERSION=14x"
+        },
+        __enabled = true,
+        linkdirs = [[C:\Users\cleme\AppData\Local\.xmake\packages\w\wxwidgets\3.2.0\9d50ab796c5f465da56839488309f433\lib]]
+    },
+    glm = {
+        __requirestr = "glm 0.9.9+8",
+        sysincludedirs = [[C:\Users\cleme\AppData\Local\.xmake\packages\g\glm\0.9.9+8\8335bab7c0314ab9921440de58961aac\include]],
+        envs = {
+            PATH = {
+                [[C:\Users\cleme\AppData\Local\.xmake\packages\g\glm\0.9.9+8\8335bab7c0314ab9921440de58961aac\bin]]
+            }
+        },
+        version = "0.9.9+8",
+        __enabled = true,
+        __installdir = [[C:\Users\cleme\AppData\Local\.xmake\packages\g\glm\0.9.9+8\8335bab7c0314ab9921440de58961aac]]
+    },
+    libsdl_image = {
+        links = {
+            "SDL2_image",
+            "SDL2main",
+            "SDL2"
+        },
+        sysincludedirs = {
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl_image\2.0.5\9479f9c7b55b4e95a3a1f9f250f8751c\include]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl_image\2.0.5\9479f9c7b55b4e95a3a1f9f250f8751c\include\SDL2]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl\2.0.20\42621af521d34628a083584cefc78328\include]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl\2.0.20\42621af521d34628a083584cefc78328\include\SDL2]]
+        },
+        __installdir = [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl_image\2.0.5\9479f9c7b55b4e95a3a1f9f250f8751c]],
+        __extrainfo = {
+            configs = {
+                shared = true,
+                vs_runtime = "MT"
+            }
+        },
+        envs = {
+            PATH = {
+                [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl_image\2.0.5\9479f9c7b55b4e95a3a1f9f250f8751c\bin]],
+                [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl\2.0.20\42621af521d34628a083584cefc78328\bin]]
+            }
+        },
+        static = true,
+        __requirestr = "libsdl_image 2.0.5",
+        defines = "SDL_MAIN_HANDLED",
+        version = "2.0.5",
+        libfiles = {
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl_image\2.0.5\9479f9c7b55b4e95a3a1f9f250f8751c\lib\SDL2_image.lib]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl_image\2.0.5\9479f9c7b55b4e95a3a1f9f250f8751c\bin\libjpeg-9.dll]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl_image\2.0.5\9479f9c7b55b4e95a3a1f9f250f8751c\bin\libpng16-16.dll]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl_image\2.0.5\9479f9c7b55b4e95a3a1f9f250f8751c\bin\libtiff-5.dll]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl_image\2.0.5\9479f9c7b55b4e95a3a1f9f250f8751c\bin\libwebp-7.dll]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl_image\2.0.5\9479f9c7b55b4e95a3a1f9f250f8751c\bin\SDL2_image.dll]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl_image\2.0.5\9479f9c7b55b4e95a3a1f9f250f8751c\bin\zlib1.dll]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl\2.0.20\42621af521d34628a083584cefc78328\lib\SDL2main.lib]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl\2.0.20\42621af521d34628a083584cefc78328\lib\SDL2.lib]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl\2.0.20\42621af521d34628a083584cefc78328\bin\SDL2.dll]]
+        },
+        syslinks = {
+            "gdi32",
+            "user32",
+            "winmm",
+            "shell32"
+        },
+        shared = true,
+        __enabled = true,
+        linkdirs = {
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl_image\2.0.5\9479f9c7b55b4e95a3a1f9f250f8751c\lib]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl\2.0.20\42621af521d34628a083584cefc78328\lib]]
+        }
+    }
+}
