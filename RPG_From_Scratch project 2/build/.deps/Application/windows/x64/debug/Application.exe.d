@@ -1,11 +1,4 @@
 {
-    files = {
-        [[build\.objs\Application\windows\x64\debug\src\Core\Engine.cpp.obj]],
-        [[build\.objs\Application\windows\x64\debug\src\Core\OpenGLTest.cpp.obj]],
-        [[build\.objs\Application\windows\x64\debug\src\Core\TextureManager.cpp.obj]],
-        [[build\.objs\Application\windows\x64\debug\src\Main.cpp.obj]],
-        [[build\.objs\Application\windows\x64\debug\src\Physics\Vector2D.cpp.obj]]
-    },
     values = {
         [[C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\HostX64\x64\link.exe]],
         {
@@ -81,5 +74,12 @@
             "shell32.lib",
             "gdi32.lib"
         }
+    },
+    files = {
+        [[build\.objs\Application\windows\x64\debug\src\Core\Engine.cpp.obj]],
+        [[build\.objs\Application\windows\x64\debug\src\Core\OpenGLTest.cpp.obj]],
+        [[build\.objs\Application\windows\x64\debug\src\Core\TextureManager.cpp.obj]],
+        [[build\.objs\Application\windows\x64\debug\src\Main.cpp.obj]],
+        [[build\.objs\Application\windows\x64\debug\src\Physics\Vector2D.cpp.obj]]
     }
 }

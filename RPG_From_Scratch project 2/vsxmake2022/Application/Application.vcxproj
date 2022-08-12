@@ -167,7 +167,7 @@ xmake version 2.6.7+dev.b19dec5ac
     <ClInclude Include="$(XmakeProjectDir)\graphics\Landscape 1.png" />
     <ClInclude Include="$(XmakeProjectDir)\graphics\Player.PNG" />
     <ClInclude Include="$(XmakeProjectDir)\graphics\TEST.png" />
-    <ClInclude Include="..\..\include\OpenGLTest.h" />
+    <ClInclude Include="..\..\include\OpenGLTest.hpp" />
 
 
   </ItemGroup>
