@@ -12,8 +12,10 @@ add_requires("libspng v0.7.1", { configs = { shared = true }})
 add_requires("glfw 3.3.7")
 add_requires("glm 0.9.9+8")
 add_requires("glad v0.1.36")
+add_requires("glew")
 add_requires("entt v3.10.0")
 add_requires("wxwidgets 3.2.0")
+add_requires("qt5widgets")
 
 local outputdir = "$(mode) = -$(arch)"
 
@@ -38,8 +40,13 @@ target("Application")
     add_packages("glm")
     add_packages("glfw")
     add_packages("glad")
+    add_packages("glew")
     add_packages("entt")
     add_packages("wxwidgets")
+    add_packages("qt5widgets")
+    
+
+    
 
     
    

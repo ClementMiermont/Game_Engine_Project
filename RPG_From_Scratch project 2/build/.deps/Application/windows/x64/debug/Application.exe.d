@@ -1,4 +1,10 @@
 {
+    files = {
+        [[build\.objs\Application\windows\x64\debug\src\Core\Engine.cpp.obj]],
+        [[build\.objs\Application\windows\x64\debug\src\Core\TextureManager.cpp.obj]],
+        [[build\.objs\Application\windows\x64\debug\src\Main.cpp.obj]],
+        [[build\.objs\Application\windows\x64\debug\src\Physics\Vector2D.cpp.obj]]
+    },
     values = {
         [[C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\HostX64\x64\link.exe]],
         {
@@ -12,7 +18,9 @@
             [[-libpath:C:\Users\cleme\AppData\Local\.xmake\packages\z\zlib\v1.2.12\b5ea843dabd742168c9611e216a46175\lib]],
             [[-libpath:C:\Users\cleme\AppData\Local\.xmake\packages\g\glfw\3.3.7\2fbb1b2ee9904256a596a74ae04c4cfa\lib]],
             [[-libpath:C:\Users\cleme\AppData\Local\.xmake\packages\g\glad\v0.1.36\d58ee23747ff411aae74b40986460499\lib]],
+            [[-libpath:C:\Users\cleme\AppData\Local\.xmake\packages\g\glew\2.2.0\618c7b92c819453eaa1a00a41d1d32e3\lib]],
             [[-libpath:C:\Users\cleme\AppData\Local\.xmake\packages\w\wxwidgets\3.2.0\9d50ab796c5f465da56839488309f433\lib]],
+            [[-libpath:C:\Users\cleme\AppData\Local\.xmake\packages\q\qt5base\5.15.2\56a6d4e4dc1245439a319fe3789fb16f\lib]],
             "-debug",
             [[-pdb:build\windows\x64\debug\Application.pdb]],
             "SDL2_image.lib",
@@ -21,8 +29,8 @@
             "spng.lib",
             "zlib.lib",
             "glfw3.lib",
-            "opengl32.lib",
             "glad.lib",
+            "glew32s.lib",
             "wxbase32u.lib",
             "wxbase32ud.lib",
             "wxbase32ud_net.lib",
@@ -69,17 +77,14 @@
             "wxtiffd.lib",
             "wxzlib.lib",
             "wxzlibd.lib",
+            "Qt5Widgets.lib",
+            "Qt5Gui.lib",
+            "Qt5Core.lib",
             "winmm.lib",
             "user32.lib",
             "shell32.lib",
-            "gdi32.lib"
+            "gdi32.lib",
+            "opengl32.lib"
         }
-    },
-    files = {
-        [[build\.objs\Application\windows\x64\debug\src\Core\Engine.cpp.obj]],
-        [[build\.objs\Application\windows\x64\debug\src\Core\OpenGLTest.cpp.obj]],
-        [[build\.objs\Application\windows\x64\debug\src\Core\TextureManager.cpp.obj]],
-        [[build\.objs\Application\windows\x64\debug\src\Main.cpp.obj]],
-        [[build\.objs\Application\windows\x64\debug\src\Physics\Vector2D.cpp.obj]]
     }
 }

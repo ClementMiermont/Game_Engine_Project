@@ -1,7 +1,4 @@
 {
-    files = {
-        [[src\Core\TextureManager.cpp]]
-    },
     depfiles_cl_json = "{\
     \"Version\": \"1.1\",\
     \"Data\": {\
@@ -278,13 +275,16 @@
             \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\l\\\\libsdl_image\\\\2.0.5\\\\9479f9c7b55b4e95a3a1f9f250f8751c\\\\include\\\\sdl2\\\\sdl_image.h\",\
             \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\l\\\\libsdl\\\\2.0.20\\\\42621af521d34628a083584cefc78328\\\\include\\\\sdl2\\\\begin_code.h\",\
             \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\l\\\\libsdl\\\\2.0.20\\\\42621af521d34628a083584cefc78328\\\\include\\\\sdl2\\\\close_code.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\g\\\\glad\\\\v0.1.36\\\\d58ee23747ff411aae74b40986460499\\\\include\\\\glad\\\\glad.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\g\\\\glad\\\\v0.1.36\\\\d58ee23747ff411aae74b40986460499\\\\include\\\\khr\\\\khrplatform.h\"\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\g\\\\glew\\\\2.2.0\\\\618c7b92c819453eaa1a00a41d1d32e3\\\\include\\\\gl\\\\glew.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\g\\\\glfw\\\\3.3.7\\\\2fbb1b2ee9904256a596a74ae04c4cfa\\\\include\\\\glfw\\\\glfw3.h\"\
         ],\
         \"ImportedModules\": [],\
         \"ImportedHeaderUnits\": []\
     }\
 }",
+    files = {
+        [[src\Core\TextureManager.cpp]]
+    },
     values = {
         [[C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\HostX64\x64\cl.exe]],
         {
@@ -298,6 +298,8 @@
             "-Iinclude",
             "-DSDL_MAIN_HANDLED",
             "-DGLFW_INCLUDE_NONE",
+            "-DGLEW_NO_GLU",
+            "-DGLEW_STATIC",
             "-DWXUSINGDLL",
             "-D__WXMSW__",
             "-DwxSUFFIX=ud",
@@ -321,9 +323,19 @@
             "-external:W0",
             [[-external:IC:\Users\cleme\AppData\Local\.xmake\packages\g\glad\v0.1.36\d58ee23747ff411aae74b40986460499\include]],
             "-external:W0",
+            [[-external:IC:\Users\cleme\AppData\Local\.xmake\packages\g\glew\2.2.0\618c7b92c819453eaa1a00a41d1d32e3\include]],
+            "-external:W0",
             [[-external:IC:\Users\cleme\AppData\Local\.xmake\packages\e\entt\v3.10.0\3cdaab47d550458d9d8d0385740299bb\include]],
             "-external:W0",
-            [[-external:IC:\Users\cleme\AppData\Local\.xmake\packages\w\wxwidgets\3.2.0\9d50ab796c5f465da56839488309f433\include]]
+            [[-external:IC:\Users\cleme\AppData\Local\.xmake\packages\w\wxwidgets\3.2.0\9d50ab796c5f465da56839488309f433\include]],
+            "-external:W0",
+            [[-external:IC:\Users\cleme\AppData\Local\.xmake\packages\q\qt5base\5.15.2\56a6d4e4dc1245439a319fe3789fb16f\include]],
+            "-external:W0",
+            [[-external:IC:\Users\cleme\AppData\Local\.xmake\packages\q\qt5base\5.15.2\56a6d4e4dc1245439a319fe3789fb16f\include\QtWidgets]],
+            "-external:W0",
+            [[-external:IC:\Users\cleme\AppData\Local\.xmake\packages\q\qt5base\5.15.2\56a6d4e4dc1245439a319fe3789fb16f\include\QtGui]],
+            "-external:W0",
+            [[-external:IC:\Users\cleme\AppData\Local\.xmake\packages\q\qt5base\5.15.2\56a6d4e4dc1245439a319fe3789fb16f\include\QtCore]]
         }
     }
 }

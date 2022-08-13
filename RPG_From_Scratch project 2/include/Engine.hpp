@@ -4,7 +4,9 @@
 #include <iostream>
 #include <SDL2/SDL.h>
 #include <SDL_image.h>
-#include <glad/glad.h>
+#include <GL/glew.h>
+#include <GLFW/glfw3.h>
+
 
 inline int Screen_Width = 900;
 inline int Screen_Height = 800;

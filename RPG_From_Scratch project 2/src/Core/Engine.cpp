@@ -52,6 +52,7 @@ bool Engine::clean()
     SDL_DestroyWindow(Window);
     IMG_Quit();
     SDL_Quit();
+    
 
     return false;
 }
@@ -70,7 +71,7 @@ void Engine::Render()
     
     if(Renderer)
     {
-        /*glClearColor( 0.0f, 0.0f, 0.0f, 1.0f ); */
+        
         
         SDL_SetRenderDrawColor(Renderer, 255, 100, 255, 255);
         SDL_RenderClear(Renderer);
