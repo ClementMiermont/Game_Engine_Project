@@ -2,9 +2,13 @@
 #include"Engine.hpp"
 #include"GLFW/glfw3.h"
 #include "wx/wx.h"
+#include <ctime>
+#include <chrono>
     
 int main (int argc, char** argv)
 {
+
+    
 
     //-----------------------------------------------------
     
@@ -20,14 +24,15 @@ int main (int argc, char** argv)
         Engine::getInstance()->Update();
         Engine::getInstance()->Render();
     }
-
-    std::cout <<"Hello World! 11/08/2022" << std::endl;
     
     Engine::getInstance()->clean();
+    
+    std::time_t t = std::time(0);
+    std::cout << "Program ended at " << std::ctime(&t);
+    
+    
 
     //-----------------------------------------------------
-
-    
     
     return 0;
 }

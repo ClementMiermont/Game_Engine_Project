@@ -7,6 +7,17 @@
 #include <GL/glew.h>
 #include <GLFW/glfw3.h>
 
+//define glew static
+#ifdef GLEW_STATIC
+#define GLEW_STATIC_INIT
+#else
+  ifdef GLEW_BUILD
+    define GLEWAPI extern __declspec(dllexport)
+  else
+      define GLEWAPI extern __declspec(dllimport)
+    endif
+  #endif
+
 
 inline int Screen_Width = 900;
 inline int Screen_Height = 800;

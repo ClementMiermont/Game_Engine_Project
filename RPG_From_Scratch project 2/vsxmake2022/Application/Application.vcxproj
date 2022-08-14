@@ -161,7 +161,6 @@ xmake version 2.6.7+dev.b19dec5ac
   <Import Project="$(XmakeProgramDir)\plugins\project\vsxmake\vsproj\Xmake.props" />
   <ItemGroup>
     <ClInclude Include="$(XmakeProjectDir)\include\Engine.hpp" />
-    <ClInclude Include="$(XmakeProjectDir)\include\OpenGLTest.hpp" />
     <ClInclude Include="$(XmakeProjectDir)\include\TextureManager.hpp" />
     <ClInclude Include="$(XmakeProjectDir)\include\Vector2D.hpp" />
     <ClInclude Include="$(XmakeProjectDir)\graphics\Button_Play.png" />
@@ -174,9 +173,6 @@ xmake version 2.6.7+dev.b19dec5ac
   <ItemGroup>
 
     <ClCompile Include="$(XmakeProjectDir)\src\Core\Engine.cpp">
-      <CompileAs>CompileAsCpp</CompileAs>
-    </ClCompile>
-    <ClCompile Include="$(XmakeProjectDir)\src\Core\OpenGLTest.cpp">
       <CompileAs>CompileAsCpp</CompileAs>
     </ClCompile>
     <ClCompile Include="$(XmakeProjectDir)\src\Core\TextureManager.cpp">

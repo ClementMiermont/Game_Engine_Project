@@ -1,12 +1,30 @@
 ﻿#include "Engine.hpp"
 #include "TextureManager.hpp"
 
+
 Engine * Engine::engine = nullptr;
+
+const char *vertexShaderSource ="#version 330 core\n"
+    "layout (location = 0) in vec3 aPos;\n"
+    "void main()\n"
+    "{\n"
+    "   gl_Position = vec4(aPos, 1.0);\n"
+    "}\0";
+
+const char *fragmentShaderSource = "#version 330 core\n"
+    "out vec4 FragColor;\n"
+    "uniform vec4 ourColor;\n"
+    "void main()\n"
+    "{\n"
+    "   FragColor = ourColor;\n"
+    "}\n\0";
+
+   
 
 
 bool Engine::Init()
-{
-    
+{   
+       
     if ( SDL_Init(SDL_INIT_VIDEO) != 0 && IMG_Init(IMG_INIT_PNG | IMG_INIT_JPG) !=0)
     {        SDL_Log("SDL_Init failed: %s", SDL_GetError());        
         return false;
@@ -20,6 +38,9 @@ bool Engine::Init()
 
     SDL_GL_SetAttribute(SDL_GL_DOUBLEBUFFER, 1);
     SDL_GL_SetAttribute(SDL_GL_DEPTH_SIZE, 24);
+
+    GLenum GLError;
+    
     
     Window = SDL_CreateWindow("New Engine", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED,
                               Screen_Width, Screen_Height, SDL_WINDOW_SHOWN | SDL_WINDOW_OPENGL);
@@ -40,20 +61,36 @@ bool Engine::Init()
        
     }
 
+    if ( GLError!= GLEW_OK)
+    {
+        std::cout << "Error: " << glewGetErrorString(GLError) << std::endl;
+        return false;
+    }
+    else
+    {
+        std::cout << "Glew initialized" << std::endl;
+    }
+
     TextureManager::getInstance()->load("Player", "graphics/Player.png");
     return  m_isRunning = true;
+
+    
+
+    //gl context use window
+    
    
 }
 
 bool Engine::clean()
 {
     TextureManager::getInstance()->Clean();
+    glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
     SDL_DestroyRenderer(Renderer);
     SDL_DestroyWindow(Window);
     IMG_Quit();
     SDL_Quit();
-    
 
+    m_isRunning = false;
     return false;
 }
 
@@ -96,16 +133,18 @@ void Engine::Events()
     // case is SDL escape key is pressed
     case SDL_KEYDOWN:
         if (event.key.keysym.sym == SDLK_ESCAPE)
-         {    
-         m_isRunning = false;                                
-         SDL_Log("SDL_KEYDOWN: SDLK_ESCAPE PRESSED SO QUIT");                                
-         break;                                
+         {
+            
+         SDL_Log("SDL_KEYDOWN: SDLK_ESCAPE PRESSED SO QUIT");   
+         clean();   
+                            
          }                                        
                                 
     case SDL_QUIT:
-        m_isRunning = false;
         SDL_Log("SDL BUTTON X PRESSED SO QUIT");
-        break;                                                              
+        clean();
+        break;
+                                                                
                                        
     case SDL_MOUSEBUTTONDOWN:
         if (event.button.button == SDL_BUTTON_LEFT)

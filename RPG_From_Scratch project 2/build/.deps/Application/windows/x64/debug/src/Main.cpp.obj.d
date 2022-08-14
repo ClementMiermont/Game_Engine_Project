@@ -932,15 +932,20 @@
             \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\mdi.h\",\
             \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\defs.h\",\
             \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\msw\\\\winundef.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\msw\\\\mdi.h\"\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\msw\\\\mdi.h\",\
+            \"c:\\\\program files\\\\microsoft visual studio\\\\2022\\\\community\\\\vc\\\\tools\\\\msvc\\\\14.31.31103\\\\include\\\\chrono\",\
+            \"c:\\\\program files\\\\microsoft visual studio\\\\2022\\\\community\\\\vc\\\\tools\\\\msvc\\\\14.31.31103\\\\include\\\\ratio\",\
+            \"c:\\\\program files\\\\microsoft visual studio\\\\2022\\\\community\\\\vc\\\\tools\\\\msvc\\\\14.31.31103\\\\include\\\\__msvc_tzdb.hpp\",\
+            \"c:\\\\program files\\\\microsoft visual studio\\\\2022\\\\community\\\\vc\\\\tools\\\\msvc\\\\14.31.31103\\\\include\\\\forward_list\",\
+            \"c:\\\\program files\\\\microsoft visual studio\\\\2022\\\\community\\\\vc\\\\tools\\\\msvc\\\\14.31.31103\\\\include\\\\optional\",\
+            \"c:\\\\program files\\\\microsoft visual studio\\\\2022\\\\community\\\\vc\\\\tools\\\\msvc\\\\14.31.31103\\\\include\\\\xsmf_control.h\",\
+            \"c:\\\\program files\\\\microsoft visual studio\\\\2022\\\\community\\\\vc\\\\tools\\\\msvc\\\\14.31.31103\\\\include\\\\sstream\",\
+            \"c:\\\\program files\\\\microsoft visual studio\\\\2022\\\\community\\\\vc\\\\tools\\\\msvc\\\\14.31.31103\\\\include\\\\xloctime\"\
         ],\
         \"ImportedModules\": [],\
         \"ImportedHeaderUnits\": []\
     }\
 }",
-    files = {
-        [[src\Main.cpp]]
-    },
     values = {
         [[C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\HostX64\x64\cl.exe]],
         {
@@ -993,5 +998,8 @@
             "-external:W0",
             [[-external:IC:\Users\cleme\AppData\Local\.xmake\packages\q\qt5base\5.15.2\56a6d4e4dc1245439a319fe3789fb16f\include\QtCore]]
         }
+    },
+    files = {
+        [[src\Main.cpp]]
     }
 }

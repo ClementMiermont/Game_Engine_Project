@@ -1,37 +1,80 @@
 {
-    libsdl_image = {
-        sysincludedirs = {
-            [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl_image\2.0.5\9479f9c7b55b4e95a3a1f9f250f8751c\include]],
-            [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl_image\2.0.5\9479f9c7b55b4e95a3a1f9f250f8751c\include\SDL2]],
-            [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl\2.0.20\42621af521d34628a083584cefc78328\include]],
-            [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl\2.0.20\42621af521d34628a083584cefc78328\include\SDL2]]
-        },
-        __installdir = [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl_image\2.0.5\9479f9c7b55b4e95a3a1f9f250f8751c]],
-        defines = "SDL_MAIN_HANDLED",
-        __requirestr = "libsdl_image 2.0.5",
-        static = true,
+    glfw = {
         __enabled = true,
-        version = "2.0.5",
+        defines = "GLFW_INCLUDE_NONE",
+        envs = {
+            PATH = {
+                [[C:\Users\cleme\AppData\Local\.xmake\packages\g\glfw\3.3.7\2fbb1b2ee9904256a596a74ae04c4cfa\bin]],
+                [[C:\Users\cleme\AppData\Local\.xmake\packages\c\cmake\3.22.1\33174cd752934705b9e583491cc925c6\bin]],
+                [[C:\Users\cleme\AppData\Local\.xmake\packages\o\opengl\latest\8574311f4b544fa89a3d8c3ee79d1929\bin]]
+            }
+        },
+        version = "3.3.7",
+        linkdirs = [[C:\Users\cleme\AppData\Local\.xmake\packages\g\glfw\3.3.7\2fbb1b2ee9904256a596a74ae04c4cfa\lib]],
+        license = "zlib",
+        __installdir = [[C:\Users\cleme\AppData\Local\.xmake\packages\g\glfw\3.3.7\2fbb1b2ee9904256a596a74ae04c4cfa]],
+        __requirestr = "glfw 3.3.7",
+        links = {
+            "glfw3",
+            "opengl32"
+        },
+        syslinks = {
+            "user32",
+            "shell32",
+            "gdi32"
+        },
+        static = true,
+        sysincludedirs = [[C:\Users\cleme\AppData\Local\.xmake\packages\g\glfw\3.3.7\2fbb1b2ee9904256a596a74ae04c4cfa\include]],
+        libfiles = [[C:\Users\cleme\AppData\Local\.xmake\packages\g\glfw\3.3.7\2fbb1b2ee9904256a596a74ae04c4cfa\lib\glfw3.lib]]
+    },
+    qt5widgets = {
+        __enabled = true,
+        envs = {
+            PATH = {
+                [[C:\Users\cleme\AppData\Local\.xmake\packages\q\qt5widgets\5.15.2\7dbe3c4846314838bdcc951d7b93e42d\bin]],
+                [[C:\Users\cleme\AppData\Local\.xmake\packages\a\aqt\2.0.6\897444fd94854674b0fc021ae3d0a68f\bin]],
+                [[C:\Users\cleme\AppData\Local\.xmake\packages\q\qt5base\5.15.2\56a6d4e4dc1245439a319fe3789fb16f\bin]],
+                [[C:\Users\cleme\AppData\Local\.xmake\packages\q\qt5core\5.15.2\7dbe3c4846314838bdcc951d7b93e42d\bin]],
+                [[C:\Users\cleme\AppData\Local\.xmake\packages\q\qt5gui\5.15.2\7dbe3c4846314838bdcc951d7b93e42d\bin]]
+            }
+        },
+        version = "5.15.2",
+        qtdir = {
+            qmldir = [[C:\Users\cleme\AppData\Local\.xmake\packages\q\qt5base\5.15.2\56a6d4e4dc1245439a319fe3789fb16f\qml]],
+            libdir = [[C:\Users\cleme\AppData\Local\.xmake\packages\q\qt5base\5.15.2\56a6d4e4dc1245439a319fe3789fb16f\lib]],
+            pluginsdir = [[C:\Users\cleme\AppData\Local\.xmake\packages\q\qt5base\5.15.2\56a6d4e4dc1245439a319fe3789fb16f\plugins]],
+            bindir = [[C:\Users\cleme\AppData\Local\.xmake\packages\q\qt5base\5.15.2\56a6d4e4dc1245439a319fe3789fb16f\bin]],
+            libexecdir = [[C:\Users\cleme\AppData\Local\.xmake\packages\q\qt5base\5.15.2\56a6d4e4dc1245439a319fe3789fb16f\libexec]],
+            includedir = [[C:\Users\cleme\AppData\Local\.xmake\packages\q\qt5base\5.15.2\56a6d4e4dc1245439a319fe3789fb16f\include]],
+            sdkver = "5.15.2",
+            sdkdir = [[C:\Users\cleme\AppData\Local\.xmake\packages\q\qt5base\5.15.2\56a6d4e4dc1245439a319fe3789fb16f]],
+            mkspecsdir = [[C:\Users\cleme\AppData\Local\.xmake\packages\q\qt5base\5.15.2\56a6d4e4dc1245439a319fe3789fb16f\mkspecs]],
+            version = "5.15.2"
+        },
+        __requirestr = "qt5widgets",
+        links = {
+            "Qt5Widgets",
+            "Qt5Gui",
+            "Qt5Core"
+        },
+        __installdir = [[C:\Users\cleme\AppData\Local\.xmake\packages\q\qt5widgets\5.15.2\7dbe3c4846314838bdcc951d7b93e42d]],
+        frameworkdirs = [[C:\Users\cleme\AppData\Local\.xmake\packages\q\qt5base\5.15.2\56a6d4e4dc1245439a319fe3789fb16f\lib]],
+        sysincludedirs = {
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\q\qt5base\5.15.2\56a6d4e4dc1245439a319fe3789fb16f\include]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\q\qt5base\5.15.2\56a6d4e4dc1245439a319fe3789fb16f\include\QtWidgets]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\q\qt5base\5.15.2\56a6d4e4dc1245439a319fe3789fb16f\include\QtGui]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\q\qt5base\5.15.2\56a6d4e4dc1245439a319fe3789fb16f\include\QtCore]]
+        },
+        linkdirs = [[C:\Users\cleme\AppData\Local\.xmake\packages\q\qt5base\5.15.2\56a6d4e4dc1245439a319fe3789fb16f\lib]]
+    },
+    libsdl_image = {
+        __enabled = true,
+        defines = "SDL_MAIN_HANDLED",
         envs = {
             PATH = {
                 [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl_image\2.0.5\9479f9c7b55b4e95a3a1f9f250f8751c\bin]],
                 [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl\2.0.20\42621af521d34628a083584cefc78328\bin]]
             }
-        },
-        syslinks = {
-            "gdi32",
-            "user32",
-            "winmm",
-            "shell32"
-        },
-        links = {
-            "SDL2_image",
-            "SDL2main",
-            "SDL2"
-        },
-        linkdirs = {
-            [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl_image\2.0.5\9479f9c7b55b4e95a3a1f9f250f8751c\lib]],
-            [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl\2.0.20\42621af521d34628a083584cefc78328\lib]]
         },
         __extrainfo = {
             configs = {
@@ -39,7 +82,32 @@
                 vs_runtime = "MT"
             }
         },
+        version = "2.0.5",
+        linkdirs = {
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl_image\2.0.5\9479f9c7b55b4e95a3a1f9f250f8751c\lib]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl\2.0.20\42621af521d34628a083584cefc78328\lib]]
+        },
+        syslinks = {
+            "gdi32",
+            "user32",
+            "winmm",
+            "shell32"
+        },
+        __installdir = [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl_image\2.0.5\9479f9c7b55b4e95a3a1f9f250f8751c]],
+        static = true,
+        links = {
+            "SDL2_image",
+            "SDL2main",
+            "SDL2"
+        },
+        __requirestr = "libsdl_image 2.0.5",
         shared = true,
+        sysincludedirs = {
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl_image\2.0.5\9479f9c7b55b4e95a3a1f9f250f8751c\include]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl_image\2.0.5\9479f9c7b55b4e95a3a1f9f250f8751c\include\SDL2]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl\2.0.20\42621af521d34628a083584cefc78328\include]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl\2.0.20\42621af521d34628a083584cefc78328\include\SDL2]]
+        },
         libfiles = {
             [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl_image\2.0.5\9479f9c7b55b4e95a3a1f9f250f8751c\lib\SDL2_image.lib]],
             [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl_image\2.0.5\9479f9c7b55b4e95a3a1f9f250f8751c\bin\libjpeg-9.dll]],
@@ -53,195 +121,13 @@
             [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl\2.0.20\42621af521d34628a083584cefc78328\bin\SDL2.dll]]
         }
     },
-    glew = {
-        sysincludedirs = [[C:\Users\cleme\AppData\Local\.xmake\packages\g\glew\2.2.0\618c7b92c819453eaa1a00a41d1d32e3\include]],
-        __installdir = [[C:\Users\cleme\AppData\Local\.xmake\packages\g\glew\2.2.0\618c7b92c819453eaa1a00a41d1d32e3]],
-        defines = {
-            "GLEW_NO_GLU",
-            "GLEW_STATIC"
-        },
-        static = true,
-        __enabled = true,
-        envs = {
-            PATH = {
-                [[C:\Users\cleme\AppData\Local\.xmake\packages\g\glew\2.2.0\618c7b92c819453eaa1a00a41d1d32e3\bin]]
-            }
-        },
-        syslinks = "opengl32",
-        libfiles = [[C:\Users\cleme\AppData\Local\.xmake\packages\g\glew\2.2.0\618c7b92c819453eaa1a00a41d1d32e3\lib\glew32s.lib]],
-        linkdirs = [[C:\Users\cleme\AppData\Local\.xmake\packages\g\glew\2.2.0\618c7b92c819453eaa1a00a41d1d32e3\lib]],
-        __requirestr = "glew",
-        version = "2.2.0",
-        links = "glew32s"
-    },
-    entt = {
-        envs = {
-            PATH = {
-                [[C:\Users\cleme\AppData\Local\.xmake\packages\e\entt\v3.10.0\3cdaab47d550458d9d8d0385740299bb\bin]],
-                [[C:\Users\cleme\AppData\Local\.xmake\packages\c\cmake\3.22.1\33174cd752934705b9e583491cc925c6\bin]]
-            }
-        },
-        sysincludedirs = [[C:\Users\cleme\AppData\Local\.xmake\packages\e\entt\v3.10.0\3cdaab47d550458d9d8d0385740299bb\include]],
-        __installdir = [[C:\Users\cleme\AppData\Local\.xmake\packages\e\entt\v3.10.0\3cdaab47d550458d9d8d0385740299bb]],
-        __requirestr = "entt v3.10.0",
-        version = "v3.10.0",
-        __enabled = true
-    },
-    glm = {
-        envs = {
-            PATH = {
-                [[C:\Users\cleme\AppData\Local\.xmake\packages\g\glm\0.9.9+8\8335bab7c0314ab9921440de58961aac\bin]]
-            }
-        },
-        sysincludedirs = [[C:\Users\cleme\AppData\Local\.xmake\packages\g\glm\0.9.9+8\8335bab7c0314ab9921440de58961aac\include]],
-        __installdir = [[C:\Users\cleme\AppData\Local\.xmake\packages\g\glm\0.9.9+8\8335bab7c0314ab9921440de58961aac]],
-        __requirestr = "glm 0.9.9+8",
-        version = "0.9.9+8",
-        __enabled = true
-    },
-    glad = {
-        sysincludedirs = [[C:\Users\cleme\AppData\Local\.xmake\packages\g\glad\v0.1.36\d58ee23747ff411aae74b40986460499\include]],
-        __installdir = [[C:\Users\cleme\AppData\Local\.xmake\packages\g\glad\v0.1.36\d58ee23747ff411aae74b40986460499]],
-        version = "v0.1.36",
-        __enabled = true,
-        envs = {
-            PATH = {
-                [[C:\Users\cleme\AppData\Local\.xmake\packages\g\glad\v0.1.36\d58ee23747ff411aae74b40986460499\bin]]
-            }
-        },
-        links = "glad",
-        static = true,
-        linkdirs = [[C:\Users\cleme\AppData\Local\.xmake\packages\g\glad\v0.1.36\d58ee23747ff411aae74b40986460499\lib]],
-        license = "MIT",
-        libfiles = [[C:\Users\cleme\AppData\Local\.xmake\packages\g\glad\v0.1.36\d58ee23747ff411aae74b40986460499\lib\glad.lib]],
-        __requirestr = "glad v0.1.36"
-    },
-    glfw = {
-        sysincludedirs = [[C:\Users\cleme\AppData\Local\.xmake\packages\g\glfw\3.3.7\2fbb1b2ee9904256a596a74ae04c4cfa\include]],
-        __installdir = [[C:\Users\cleme\AppData\Local\.xmake\packages\g\glfw\3.3.7\2fbb1b2ee9904256a596a74ae04c4cfa]],
-        defines = "GLFW_INCLUDE_NONE",
-        static = true,
-        __enabled = true,
-        libfiles = [[C:\Users\cleme\AppData\Local\.xmake\packages\g\glfw\3.3.7\2fbb1b2ee9904256a596a74ae04c4cfa\lib\glfw3.lib]],
-        envs = {
-            PATH = {
-                [[C:\Users\cleme\AppData\Local\.xmake\packages\g\glfw\3.3.7\2fbb1b2ee9904256a596a74ae04c4cfa\bin]],
-                [[C:\Users\cleme\AppData\Local\.xmake\packages\c\cmake\3.22.1\33174cd752934705b9e583491cc925c6\bin]],
-                [[C:\Users\cleme\AppData\Local\.xmake\packages\o\opengl\latest\8574311f4b544fa89a3d8c3ee79d1929\bin]]
-            }
-        },
-        syslinks = {
-            "user32",
-            "shell32",
-            "gdi32"
-        },
-        __requirestr = "glfw 3.3.7",
-        linkdirs = [[C:\Users\cleme\AppData\Local\.xmake\packages\g\glfw\3.3.7\2fbb1b2ee9904256a596a74ae04c4cfa\lib]],
-        license = "zlib",
-        version = "3.3.7",
-        links = {
-            "glfw3",
-            "opengl32"
-        }
-    },
-    libsdl = {
-        sysincludedirs = {
-            [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl\2.0.20\42621af521d34628a083584cefc78328\include]],
-            [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl\2.0.20\42621af521d34628a083584cefc78328\include\SDL2]]
-        },
-        __installdir = [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl\2.0.20\42621af521d34628a083584cefc78328]],
-        defines = "SDL_MAIN_HANDLED",
-        __enabled = true,
-        envs = {
-            PATH = {
-                [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl\2.0.20\42621af521d34628a083584cefc78328\bin]]
-            }
-        },
-        syslinks = {
-            "gdi32",
-            "user32",
-            "winmm",
-            "shell32"
-        },
-        libfiles = {
-            [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl\2.0.20\42621af521d34628a083584cefc78328\lib\SDL2main.lib]],
-            [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl\2.0.20\42621af521d34628a083584cefc78328\lib\SDL2.lib]],
-            [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl\2.0.20\42621af521d34628a083584cefc78328\bin\SDL2.dll]]
-        },
-        linkdirs = [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl\2.0.20\42621af521d34628a083584cefc78328\lib]],
-        __extrainfo = {
-            configs = { }
-        },
-        links = {
-            "SDL2main",
-            "SDL2"
-        },
-        __requirestr = "libsdl 2.0.20"
-    },
-    qt5widgets = {
-        sysincludedirs = {
-            [[C:\Users\cleme\AppData\Local\.xmake\packages\q\qt5base\5.15.2\56a6d4e4dc1245439a319fe3789fb16f\include]],
-            [[C:\Users\cleme\AppData\Local\.xmake\packages\q\qt5base\5.15.2\56a6d4e4dc1245439a319fe3789fb16f\include\QtWidgets]],
-            [[C:\Users\cleme\AppData\Local\.xmake\packages\q\qt5base\5.15.2\56a6d4e4dc1245439a319fe3789fb16f\include\QtGui]],
-            [[C:\Users\cleme\AppData\Local\.xmake\packages\q\qt5base\5.15.2\56a6d4e4dc1245439a319fe3789fb16f\include\QtCore]]
-        },
-        __installdir = [[C:\Users\cleme\AppData\Local\.xmake\packages\q\qt5widgets\5.15.2\7dbe3c4846314838bdcc951d7b93e42d]],
-        version = "5.15.2",
-        __enabled = true,
-        envs = {
-            PATH = {
-                [[C:\Users\cleme\AppData\Local\.xmake\packages\q\qt5widgets\5.15.2\7dbe3c4846314838bdcc951d7b93e42d\bin]],
-                [[C:\Users\cleme\AppData\Local\.xmake\packages\a\aqt\2.0.6\897444fd94854674b0fc021ae3d0a68f\bin]],
-                [[C:\Users\cleme\AppData\Local\.xmake\packages\q\qt5base\5.15.2\56a6d4e4dc1245439a319fe3789fb16f\bin]],
-                [[C:\Users\cleme\AppData\Local\.xmake\packages\q\qt5core\5.15.2\7dbe3c4846314838bdcc951d7b93e42d\bin]],
-                [[C:\Users\cleme\AppData\Local\.xmake\packages\q\qt5gui\5.15.2\7dbe3c4846314838bdcc951d7b93e42d\bin]]
-            }
-        },
-        frameworkdirs = [[C:\Users\cleme\AppData\Local\.xmake\packages\q\qt5base\5.15.2\56a6d4e4dc1245439a319fe3789fb16f\lib]],
-        linkdirs = [[C:\Users\cleme\AppData\Local\.xmake\packages\q\qt5base\5.15.2\56a6d4e4dc1245439a319fe3789fb16f\lib]],
-        qtdir = {
-            libexecdir = [[C:\Users\cleme\AppData\Local\.xmake\packages\q\qt5base\5.15.2\56a6d4e4dc1245439a319fe3789fb16f\libexec]],
-            pluginsdir = [[C:\Users\cleme\AppData\Local\.xmake\packages\q\qt5base\5.15.2\56a6d4e4dc1245439a319fe3789fb16f\plugins]],
-            sdkver = "5.15.2",
-            version = "5.15.2",
-            qmldir = [[C:\Users\cleme\AppData\Local\.xmake\packages\q\qt5base\5.15.2\56a6d4e4dc1245439a319fe3789fb16f\qml]],
-            mkspecsdir = [[C:\Users\cleme\AppData\Local\.xmake\packages\q\qt5base\5.15.2\56a6d4e4dc1245439a319fe3789fb16f\mkspecs]],
-            sdkdir = [[C:\Users\cleme\AppData\Local\.xmake\packages\q\qt5base\5.15.2\56a6d4e4dc1245439a319fe3789fb16f]],
-            libdir = [[C:\Users\cleme\AppData\Local\.xmake\packages\q\qt5base\5.15.2\56a6d4e4dc1245439a319fe3789fb16f\lib]],
-            bindir = [[C:\Users\cleme\AppData\Local\.xmake\packages\q\qt5base\5.15.2\56a6d4e4dc1245439a319fe3789fb16f\bin]],
-            includedir = [[C:\Users\cleme\AppData\Local\.xmake\packages\q\qt5base\5.15.2\56a6d4e4dc1245439a319fe3789fb16f\include]]
-        },
-        links = {
-            "Qt5Widgets",
-            "Qt5Gui",
-            "Qt5Core"
-        },
-        __requirestr = "qt5widgets"
-    },
     libspng = {
-        sysincludedirs = {
-            [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libspng\v0.7.1\6b022006e0ab4a379a90b6478c1c3a00\include]],
-            [[C:\Users\cleme\AppData\Local\.xmake\packages\z\zlib\v1.2.12\b5ea843dabd742168c9611e216a46175\include]]
-        },
-        __installdir = [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libspng\v0.7.1\6b022006e0ab4a379a90b6478c1c3a00]],
-        static = true,
         __enabled = true,
-        __requirestr = "libspng v0.7.1",
         envs = {
             PATH = {
                 [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libspng\v0.7.1\6b022006e0ab4a379a90b6478c1c3a00\bin]],
                 [[C:\Users\cleme\AppData\Local\.xmake\packages\z\zlib\v1.2.12\b5ea843dabd742168c9611e216a46175\bin]]
             }
-        },
-        libfiles = {
-            [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libspng\v0.7.1\6b022006e0ab4a379a90b6478c1c3a00\lib\spng.lib]],
-            [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libspng\v0.7.1\6b022006e0ab4a379a90b6478c1c3a00\bin\spng.dll]],
-            [[C:\Users\cleme\AppData\Local\.xmake\packages\z\zlib\v1.2.12\b5ea843dabd742168c9611e216a46175\lib\zlib.lib]]
-        },
-        version = "v0.7.1",
-        linkdirs = {
-            [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libspng\v0.7.1\6b022006e0ab4a379a90b6478c1c3a00\lib]],
-            [[C:\Users\cleme\AppData\Local\.xmake\packages\z\zlib\v1.2.12\b5ea843dabd742168c9611e216a46175\lib]]
         },
         __extrainfo = {
             configs = {
@@ -249,28 +135,43 @@
                 vs_runtime = "MT"
             }
         },
-        shared = true,
+        version = "v0.7.1",
+        linkdirs = {
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libspng\v0.7.1\6b022006e0ab4a379a90b6478c1c3a00\lib]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\z\zlib\v1.2.12\b5ea843dabd742168c9611e216a46175\lib]]
+        },
+        __installdir = [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libspng\v0.7.1\6b022006e0ab4a379a90b6478c1c3a00]],
         links = {
             "spng",
             "zlib"
+        },
+        static = true,
+        __requirestr = "libspng v0.7.1",
+        shared = true,
+        sysincludedirs = {
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libspng\v0.7.1\6b022006e0ab4a379a90b6478c1c3a00\include]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\z\zlib\v1.2.12\b5ea843dabd742168c9611e216a46175\include]]
+        },
+        libfiles = {
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libspng\v0.7.1\6b022006e0ab4a379a90b6478c1c3a00\lib\spng.lib]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libspng\v0.7.1\6b022006e0ab4a379a90b6478c1c3a00\bin\spng.dll]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\z\zlib\v1.2.12\b5ea843dabd742168c9611e216a46175\lib\zlib.lib]]
         }
     },
     wxwidgets = {
-        sysincludedirs = [[C:\Users\cleme\AppData\Local\.xmake\packages\w\wxwidgets\3.2.0\9d50ab796c5f465da56839488309f433\include]],
-        __installdir = [[C:\Users\cleme\AppData\Local\.xmake\packages\w\wxwidgets\3.2.0\9d50ab796c5f465da56839488309f433]],
+        __enabled = true,
         defines = {
             "WXUSINGDLL",
             "__WXMSW__",
             "wxSUFFIX=ud",
             "wxMSVC_VERSION=14x"
         },
-        version = "3.2.0",
-        __enabled = true,
         envs = {
             PATH = {
                 [[C:\Users\cleme\AppData\Local\.xmake\packages\w\wxwidgets\3.2.0\9d50ab796c5f465da56839488309f433\bin]]
             }
         },
+        version = "3.2.0",
         libfiles = {
             [[C:\Users\cleme\AppData\Local\.xmake\packages\w\wxwidgets\3.2.0\9d50ab796c5f465da56839488309f433\lib\wxbase32u.lib]],
             [[C:\Users\cleme\AppData\Local\.xmake\packages\w\wxwidgets\3.2.0\9d50ab796c5f465da56839488309f433\lib\wxbase32ud.lib]],
@@ -338,10 +239,9 @@
             [[C:\Users\cleme\AppData\Local\.xmake\packages\w\wxwidgets\3.2.0\9d50ab796c5f465da56839488309f433\bin\wxmsw32ud_webview_vc14x_x64.dll]],
             [[C:\Users\cleme\AppData\Local\.xmake\packages\w\wxwidgets\3.2.0\9d50ab796c5f465da56839488309f433\bin\wxmsw32ud_xrc_vc14x_x64.dll]]
         },
-        static = true,
-        linkdirs = [[C:\Users\cleme\AppData\Local\.xmake\packages\w\wxwidgets\3.2.0\9d50ab796c5f465da56839488309f433\lib]],
         __requirestr = "wxwidgets 3.2.0",
-        shared = true,
+        __installdir = [[C:\Users\cleme\AppData\Local\.xmake\packages\w\wxwidgets\3.2.0\9d50ab796c5f465da56839488309f433]],
+        static = true,
         links = {
             "wxbase32u",
             "wxbase32ud",
@@ -389,6 +289,106 @@
             "wxtiffd",
             "wxzlib",
             "wxzlibd"
+        },
+        shared = true,
+        sysincludedirs = [[C:\Users\cleme\AppData\Local\.xmake\packages\w\wxwidgets\3.2.0\9d50ab796c5f465da56839488309f433\include]],
+        linkdirs = [[C:\Users\cleme\AppData\Local\.xmake\packages\w\wxwidgets\3.2.0\9d50ab796c5f465da56839488309f433\lib]]
+    },
+    glew = {
+        __enabled = true,
+        defines = {
+            "GLEW_NO_GLU",
+            "GLEW_STATIC"
+        },
+        envs = {
+            PATH = {
+                [[C:\Users\cleme\AppData\Local\.xmake\packages\g\glew\2.2.0\618c7b92c819453eaa1a00a41d1d32e3\bin]]
+            }
+        },
+        version = "2.2.0",
+        libfiles = [[C:\Users\cleme\AppData\Local\.xmake\packages\g\glew\2.2.0\618c7b92c819453eaa1a00a41d1d32e3\lib\glew32s.lib]],
+        __requirestr = "glew",
+        linkdirs = [[C:\Users\cleme\AppData\Local\.xmake\packages\g\glew\2.2.0\618c7b92c819453eaa1a00a41d1d32e3\lib]],
+        links = "glew32s",
+        __installdir = [[C:\Users\cleme\AppData\Local\.xmake\packages\g\glew\2.2.0\618c7b92c819453eaa1a00a41d1d32e3]],
+        static = true,
+        sysincludedirs = [[C:\Users\cleme\AppData\Local\.xmake\packages\g\glew\2.2.0\618c7b92c819453eaa1a00a41d1d32e3\include]],
+        syslinks = "opengl32"
+    },
+    libsdl = {
+        __enabled = true,
+        defines = "SDL_MAIN_HANDLED",
+        envs = {
+            PATH = {
+                [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl\2.0.20\42621af521d34628a083584cefc78328\bin]]
+            }
+        },
+        __extrainfo = {
+            configs = { }
+        },
+        __requirestr = "libsdl 2.0.20",
+        libfiles = {
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl\2.0.20\42621af521d34628a083584cefc78328\lib\SDL2main.lib]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl\2.0.20\42621af521d34628a083584cefc78328\lib\SDL2.lib]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl\2.0.20\42621af521d34628a083584cefc78328\bin\SDL2.dll]]
+        },
+        links = {
+            "SDL2main",
+            "SDL2"
+        },
+        __installdir = [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl\2.0.20\42621af521d34628a083584cefc78328]],
+        linkdirs = [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl\2.0.20\42621af521d34628a083584cefc78328\lib]],
+        sysincludedirs = {
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl\2.0.20\42621af521d34628a083584cefc78328\include]],
+            [[C:\Users\cleme\AppData\Local\.xmake\packages\l\libsdl\2.0.20\42621af521d34628a083584cefc78328\include\SDL2]]
+        },
+        syslinks = {
+            "gdi32",
+            "user32",
+            "winmm",
+            "shell32"
         }
+    },
+    glad = {
+        __enabled = true,
+        license = "MIT",
+        envs = {
+            PATH = {
+                [[C:\Users\cleme\AppData\Local\.xmake\packages\g\glad\v0.1.36\d58ee23747ff411aae74b40986460499\bin]]
+            }
+        },
+        version = "v0.1.36",
+        __requirestr = "glad v0.1.36",
+        linkdirs = [[C:\Users\cleme\AppData\Local\.xmake\packages\g\glad\v0.1.36\d58ee23747ff411aae74b40986460499\lib]],
+        links = "glad",
+        static = true,
+        __installdir = [[C:\Users\cleme\AppData\Local\.xmake\packages\g\glad\v0.1.36\d58ee23747ff411aae74b40986460499]],
+        sysincludedirs = [[C:\Users\cleme\AppData\Local\.xmake\packages\g\glad\v0.1.36\d58ee23747ff411aae74b40986460499\include]],
+        libfiles = [[C:\Users\cleme\AppData\Local\.xmake\packages\g\glad\v0.1.36\d58ee23747ff411aae74b40986460499\lib\glad.lib]]
+    },
+    entt = {
+        __requirestr = "entt v3.10.0",
+        envs = {
+            PATH = {
+                [[C:\Users\cleme\AppData\Local\.xmake\packages\e\entt\v3.10.0\3cdaab47d550458d9d8d0385740299bb\bin]],
+                [[C:\Users\cleme\AppData\Local\.xmake\packages\c\cmake\3.22.1\33174cd752934705b9e583491cc925c6\bin]]
+            }
+        },
+        version = "v3.10.0",
+        __enabled = true,
+        sysincludedirs = [[C:\Users\cleme\AppData\Local\.xmake\packages\e\entt\v3.10.0\3cdaab47d550458d9d8d0385740299bb\include]],
+        __installdir = [[C:\Users\cleme\AppData\Local\.xmake\packages\e\entt\v3.10.0\3cdaab47d550458d9d8d0385740299bb]]
+    },
+    glm = {
+        __requirestr = "glm 0.9.9+8",
+        envs = {
+            PATH = {
+                [[C:\Users\cleme\AppData\Local\.xmake\packages\g\glm\0.9.9+8\8335bab7c0314ab9921440de58961aac\bin]]
+            }
+        },
+        version = "0.9.9+8",
+        __enabled = true,
+        sysincludedirs = [[C:\Users\cleme\AppData\Local\.xmake\packages\g\glm\0.9.9+8\8335bab7c0314ab9921440de58961aac\include]],
+        __installdir = [[C:\Users\cleme\AppData\Local\.xmake\packages\g\glm\0.9.9+8\8335bab7c0314ab9921440de58961aac]]
     }
 }

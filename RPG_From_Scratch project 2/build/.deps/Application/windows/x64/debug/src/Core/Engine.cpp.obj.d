@@ -282,9 +282,6 @@
         \"ImportedHeaderUnits\": []\
     }\
 }",
-    files = {
-        [[src\Core\Engine.cpp]]
-    },
     values = {
         [[C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\HostX64\x64\cl.exe]],
         {
@@ -337,5 +334,8 @@
             "-external:W0",
             [[-external:IC:\Users\cleme\AppData\Local\.xmake\packages\q\qt5base\5.15.2\56a6d4e4dc1245439a319fe3789fb16f\include\QtCore]]
         }
+    },
+    files = {
+        [[src\Core\Engine.cpp]]
     }
 }
