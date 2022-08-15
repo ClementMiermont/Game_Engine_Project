@@ -8,12 +8,6 @@
 int main (int argc, char** argv)
 {
 
-    
-
-    //-----------------------------------------------------
-    
-    
-
     //-----------------------------------------------------
     
     Engine::getInstance()->Init();
@@ -29,8 +23,6 @@ int main (int argc, char** argv)
     
     std::time_t t = std::time(0);
     std::cout << "Program ended at " << std::ctime(&t);
-    
-    
 
     //-----------------------------------------------------
     

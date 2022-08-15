@@ -271,169 +271,7 @@
             \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\l\\\\libsdl_image\\\\2.0.5\\\\9479f9c7b55b4e95a3a1f9f250f8751c\\\\include\\\\sdl2\\\\sdl_image.h\",\
             \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\l\\\\libsdl\\\\2.0.20\\\\42621af521d34628a083584cefc78328\\\\include\\\\sdl2\\\\begin_code.h\",\
             \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\l\\\\libsdl\\\\2.0.20\\\\42621af521d34628a083584cefc78328\\\\include\\\\sdl2\\\\close_code.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\g\\\\glew\\\\2.2.0\\\\618c7b92c819453eaa1a00a41d1d32e3\\\\include\\\\gl\\\\glew.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\g\\\\glfw\\\\3.3.7\\\\2fbb1b2ee9904256a596a74ae04c4cfa\\\\include\\\\glfw\\\\glfw3.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\wx.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\defs.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\platform.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\compiler.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\setup.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\version.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\cpp.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\lib\\\\vc14x_x64_dll\\\\mswud\\\\wx\\\\setup.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\msw\\\\libraries.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\chkconf.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\msw\\\\chkconf.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\dlimpexp.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\types.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\debug.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\ucrt\\\\assert.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\chartype.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\ucrt\\\\tchar.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\features.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\object.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\memory.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\defs.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\string.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\defs.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\wxcrtbase.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\ucrt\\\\wctype.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\ucrt\\\\io.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\ucrt\\\\corecrt_io.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\strvararg.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\strconv.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\defs.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\buffer.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\defs.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\fontenc.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\unichar.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\defs.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\stringimpl.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\defs.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\beforestd.h\",\
-            \"c:\\\\program files\\\\microsoft visual studio\\\\2022\\\\community\\\\vc\\\\tools\\\\msvc\\\\14.31.31103\\\\include\\\\string\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\afterstd.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\msw\\\\winundef.h\",\
-            \"c:\\\\program files\\\\microsoft visual studio\\\\2022\\\\community\\\\vc\\\\tools\\\\msvc\\\\14.31.31103\\\\include\\\\algorithm\",\
-            \"c:\\\\program files\\\\microsoft visual studio\\\\2022\\\\community\\\\vc\\\\tools\\\\msvc\\\\14.31.31103\\\\include\\\\string_view\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\stringops.h\",\
-            \"c:\\\\program files\\\\microsoft visual studio\\\\2022\\\\community\\\\vc\\\\tools\\\\msvc\\\\14.31.31103\\\\include\\\\functional\",\
-            \"c:\\\\program files\\\\microsoft visual studio\\\\2022\\\\community\\\\vc\\\\tools\\\\msvc\\\\14.31.31103\\\\include\\\\unordered_map\",\
-            \"c:\\\\program files\\\\microsoft visual studio\\\\2022\\\\community\\\\vc\\\\tools\\\\msvc\\\\14.31.31103\\\\include\\\\xhash\",\
-            \"c:\\\\program files\\\\microsoft visual studio\\\\2022\\\\community\\\\vc\\\\tools\\\\msvc\\\\14.31.31103\\\\include\\\\list\",\
-            \"c:\\\\program files\\\\microsoft visual studio\\\\2022\\\\community\\\\vc\\\\tools\\\\msvc\\\\14.31.31103\\\\include\\\\vector\",\
-            \"c:\\\\program files\\\\microsoft visual studio\\\\2022\\\\community\\\\vc\\\\tools\\\\msvc\\\\14.31.31103\\\\include\\\\xbit_ops.h\",\
-            \"c:\\\\program files\\\\microsoft visual studio\\\\2022\\\\community\\\\vc\\\\tools\\\\msvc\\\\14.31.31103\\\\include\\\\xnode_handle.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\iosfwrap.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\msw\\\\winundef.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\msgout.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\defs.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\xti.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\defs.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\rtti.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\flags.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\xti2.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\dynarray.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\defs.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\vector.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\defs.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\scopeguard.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\defs.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\except.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\defs.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\meta\\\\movable.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\meta\\\\pod.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\defs.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\meta\\\\if.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\defs.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\beforestd.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\afterstd.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\msw\\\\winundef.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\list.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\defs.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\hash.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\defs.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\hashmap.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\wxcrt.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\arrstr.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\defs.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\beforestd.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\afterstd.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\msw\\\\winundef.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\intl.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\defs.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\localedefs.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\translation.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\defs.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\language.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\defs.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\scopedptr.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\defs.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\checkeddelete.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\log.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\defs.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\time.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\longlong.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\defs.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\iosfwrap.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\msw\\\\winundef.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\thread.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\defs.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\iosfwrap.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\msw\\\\winundef.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\generic\\\\logg.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\event.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\defs.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\clntdata.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\defs.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\math.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\defs.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\ucrt\\\\math.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\gdicmn.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\defs.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\cursor.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\gdiobj.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\msw\\\\gdiimage.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\msw\\\\cursor.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\utils.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\filefn.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\ucrt\\\\direct.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\ucrt\\\\dos.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\ucrt\\\\fcntl.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\versioninfo.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\meta\\\\implicitconversion.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\defs.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\mousestate.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\kbdstate.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\defs.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\platinfo.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\tracker.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\defs.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\typeinfo.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\defs.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\any.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\defs.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\datetime.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\defs.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\anystr.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\variant.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\defs.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\iosfwrap.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\msw\\\\winundef.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\any.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\meta\\\\convertible.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\meta\\\\removeref.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\app.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\eventfilter.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\defs.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\build.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\cmdargs.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\init.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\defs.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\msw\\\\init.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\msw\\\\wrapwin.h\",\
-            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\msw\\\\winver.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\um\\\\winsock2.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\l\\\\libsdl\\\\2.0.20\\\\42621af521d34628a083584cefc78328\\\\include\\\\sdl2\\\\sdl_syswm.h\",\
             \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\um\\\\windows.h\",\
             \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\shared\\\\sdkddkver.h\",\
             \"c:\\\\program files\\\\microsoft visual studio\\\\2022\\\\community\\\\vc\\\\tools\\\\msvc\\\\14.31.31103\\\\include\\\\excpt.h\",\
@@ -534,114 +372,214 @@
             \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\um\\\\reason.h\",\
             \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\um\\\\winnetwk.h\",\
             \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\shared\\\\wnnc.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\shared\\\\cderr.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\um\\\\dde.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\um\\\\ddeml.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\um\\\\dlgs.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\um\\\\lzexpand.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\um\\\\mmsystem.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\um\\\\mmsyscom.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\shared\\\\pshpack1.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\shared\\\\poppack.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\shared\\\\pshpack1.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\um\\\\mciapi.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\um\\\\mmsyscom.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\um\\\\mmiscapi.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\um\\\\mmsyscom.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\um\\\\mmiscapi2.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\um\\\\mmsyscom.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\um\\\\playsoundapi.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\um\\\\mmsyscom.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\um\\\\mmeapi.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\um\\\\mmsyscom.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\um\\\\timeapi.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\um\\\\mmsyscom.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\um\\\\joystickapi.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\um\\\\mmsyscom.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\shared\\\\poppack.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\um\\\\nb30.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\shared\\\\rpc.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\shared\\\\pshpack8.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\shared\\\\rpcdce.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\shared\\\\rpcdcep.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\um\\\\rpcnsi.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\shared\\\\rpcnterr.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\shared\\\\rpcasync.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\shared\\\\pshpack8.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\shared\\\\poppack.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\shared\\\\poppack.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\um\\\\shellapi.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\um\\\\winperf.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\shared\\\\pshpack8.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\shared\\\\poppack.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\um\\\\winsock.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\um\\\\wincrypt.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\shared\\\\bcrypt.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\um\\\\ncrypt.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\um\\\\dpapi.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\um\\\\winefs.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\um\\\\winscard.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\shared\\\\wtypes.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\shared\\\\rpcndr.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\shared\\\\pshpack8.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\um\\\\rpcnsip.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\shared\\\\rpcsal.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\shared\\\\poppack.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\shared\\\\wtypesbase.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\shared\\\\guiddef.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\um\\\\winioctl.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\shared\\\\pshpack1.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\shared\\\\poppack.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\shared\\\\pshpack1.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\shared\\\\poppack.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\shared\\\\pshpack1.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\shared\\\\poppack.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\shared\\\\pshpack1.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\shared\\\\poppack.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\shared\\\\pshpack1.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\shared\\\\poppack.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\shared\\\\pshpack1.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\shared\\\\poppack.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\shared\\\\pshpack1.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\shared\\\\poppack.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\shared\\\\winsmcrd.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\um\\\\winspool.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\um\\\\prsht.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\shared\\\\pshpack8.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\shared\\\\poppack.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\um\\\\ole2.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\shared\\\\pshpack8.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\um\\\\objbase.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\shared\\\\pshpack8.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\um\\\\combaseapi.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\shared\\\\pshpack8.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\um\\\\unknwnbase.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\um\\\\objidlbase.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\shared\\\\guiddef.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\um\\\\cguid.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\shared\\\\poppack.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\um\\\\coml2api.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\um\\\\objidl.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\um\\\\unknwn.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\um\\\\propidlbase.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\um\\\\oaidl.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\um\\\\urlmon.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\um\\\\oleidl.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\um\\\\servprov.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\um\\\\msxml.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\um\\\\propidl.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\shared\\\\poppack.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\um\\\\oleauto.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\shared\\\\pshpack8.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\shared\\\\poppack.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\shared\\\\poppack.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\um\\\\commdlg.h\",\
-            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\um\\\\prsht.h\",\
             \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\shared\\\\stralign.h\",\
             \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\um\\\\winsvc.h\",\
             \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\um\\\\mcx.h\",\
             \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\um\\\\imm.h\",\
             \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\um\\\\ime_cmodes.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\l\\\\libsdl\\\\2.0.20\\\\42621af521d34628a083584cefc78328\\\\include\\\\sdl2\\\\begin_code.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\l\\\\libsdl\\\\2.0.20\\\\42621af521d34628a083584cefc78328\\\\include\\\\sdl2\\\\close_code.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\g\\\\glew\\\\2.2.0\\\\618c7b92c819453eaa1a00a41d1d32e3\\\\include\\\\gl\\\\glew.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\g\\\\glfw\\\\3.3.7\\\\2fbb1b2ee9904256a596a74ae04c4cfa\\\\include\\\\glfw\\\\glfw3.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\wx.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\defs.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\msw\\\\winundef.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\platform.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\compiler.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\setup.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\version.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\cpp.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\lib\\\\vc14x_x64_dll\\\\mswud\\\\wx\\\\setup.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\msw\\\\libraries.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\chkconf.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\msw\\\\chkconf.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\dlimpexp.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\types.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\debug.h\",\
+            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\ucrt\\\\assert.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\chartype.h\",\
+            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\ucrt\\\\tchar.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\features.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\object.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\memory.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\defs.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\msw\\\\winundef.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\string.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\defs.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\msw\\\\winundef.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\wxcrtbase.h\",\
+            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\ucrt\\\\wctype.h\",\
+            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\ucrt\\\\io.h\",\
+            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\ucrt\\\\corecrt_io.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\strvararg.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\strconv.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\defs.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\msw\\\\winundef.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\buffer.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\defs.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\msw\\\\winundef.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\fontenc.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\unichar.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\defs.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\msw\\\\winundef.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\stringimpl.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\defs.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\msw\\\\winundef.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\beforestd.h\",\
+            \"c:\\\\program files\\\\microsoft visual studio\\\\2022\\\\community\\\\vc\\\\tools\\\\msvc\\\\14.31.31103\\\\include\\\\string\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\afterstd.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\msw\\\\winundef.h\",\
+            \"c:\\\\program files\\\\microsoft visual studio\\\\2022\\\\community\\\\vc\\\\tools\\\\msvc\\\\14.31.31103\\\\include\\\\algorithm\",\
+            \"c:\\\\program files\\\\microsoft visual studio\\\\2022\\\\community\\\\vc\\\\tools\\\\msvc\\\\14.31.31103\\\\include\\\\string_view\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\stringops.h\",\
+            \"c:\\\\program files\\\\microsoft visual studio\\\\2022\\\\community\\\\vc\\\\tools\\\\msvc\\\\14.31.31103\\\\include\\\\functional\",\
+            \"c:\\\\program files\\\\microsoft visual studio\\\\2022\\\\community\\\\vc\\\\tools\\\\msvc\\\\14.31.31103\\\\include\\\\unordered_map\",\
+            \"c:\\\\program files\\\\microsoft visual studio\\\\2022\\\\community\\\\vc\\\\tools\\\\msvc\\\\14.31.31103\\\\include\\\\xhash\",\
+            \"c:\\\\program files\\\\microsoft visual studio\\\\2022\\\\community\\\\vc\\\\tools\\\\msvc\\\\14.31.31103\\\\include\\\\list\",\
+            \"c:\\\\program files\\\\microsoft visual studio\\\\2022\\\\community\\\\vc\\\\tools\\\\msvc\\\\14.31.31103\\\\include\\\\vector\",\
+            \"c:\\\\program files\\\\microsoft visual studio\\\\2022\\\\community\\\\vc\\\\tools\\\\msvc\\\\14.31.31103\\\\include\\\\xbit_ops.h\",\
+            \"c:\\\\program files\\\\microsoft visual studio\\\\2022\\\\community\\\\vc\\\\tools\\\\msvc\\\\14.31.31103\\\\include\\\\xnode_handle.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\iosfwrap.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\msw\\\\winundef.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\msgout.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\defs.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\msw\\\\winundef.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\xti.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\defs.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\msw\\\\winundef.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\rtti.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\flags.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\xti2.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\dynarray.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\defs.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\msw\\\\winundef.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\vector.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\defs.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\msw\\\\winundef.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\scopeguard.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\defs.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\msw\\\\winundef.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\except.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\defs.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\msw\\\\winundef.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\meta\\\\movable.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\meta\\\\pod.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\defs.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\msw\\\\winundef.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\meta\\\\if.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\defs.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\msw\\\\winundef.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\beforestd.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\afterstd.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\msw\\\\winundef.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\list.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\defs.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\msw\\\\winundef.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\hash.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\defs.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\msw\\\\winundef.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\hashmap.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\wxcrt.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\arrstr.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\defs.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\msw\\\\winundef.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\beforestd.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\afterstd.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\msw\\\\winundef.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\intl.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\defs.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\msw\\\\winundef.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\localedefs.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\translation.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\defs.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\msw\\\\winundef.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\language.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\defs.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\msw\\\\winundef.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\scopedptr.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\defs.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\msw\\\\winundef.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\checkeddelete.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\log.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\defs.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\msw\\\\winundef.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\time.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\longlong.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\defs.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\msw\\\\winundef.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\iosfwrap.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\msw\\\\winundef.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\thread.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\defs.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\msw\\\\winundef.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\iosfwrap.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\msw\\\\winundef.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\generic\\\\logg.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\event.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\defs.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\msw\\\\winundef.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\clntdata.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\defs.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\msw\\\\winundef.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\math.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\defs.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\msw\\\\winundef.h\",\
+            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\ucrt\\\\math.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\gdicmn.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\defs.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\msw\\\\winundef.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\cursor.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\gdiobj.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\msw\\\\gdiimage.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\msw\\\\cursor.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\utils.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\filefn.h\",\
+            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\ucrt\\\\direct.h\",\
+            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\ucrt\\\\dos.h\",\
+            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\ucrt\\\\fcntl.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\versioninfo.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\meta\\\\implicitconversion.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\defs.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\msw\\\\winundef.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\mousestate.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\kbdstate.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\defs.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\msw\\\\winundef.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\platinfo.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\tracker.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\defs.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\msw\\\\winundef.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\typeinfo.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\defs.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\msw\\\\winundef.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\any.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\defs.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\msw\\\\winundef.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\datetime.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\defs.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\msw\\\\winundef.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\anystr.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\variant.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\defs.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\msw\\\\winundef.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\iosfwrap.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\msw\\\\winundef.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\any.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\meta\\\\convertible.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\meta\\\\removeref.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\app.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\eventfilter.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\defs.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\msw\\\\winundef.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\build.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\cmdargs.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\init.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\defs.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\msw\\\\winundef.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\msw\\\\init.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\msw\\\\wrapwin.h\",\
+            \"c:\\\\users\\\\cleme\\\\appdata\\\\local\\\\.xmake\\\\packages\\\\w\\\\wxwidgets\\\\3.2.0\\\\9d50ab796c5f465da56839488309f433\\\\include\\\\wx\\\\msw\\\\winver.h\",\
+            \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\um\\\\winsock2.h\",\
             \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\shared\\\\ws2def.h\",\
             \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\shared\\\\inaddr.h\",\
             \"c:\\\\program files (x86)\\\\windows kits\\\\10\\\\include\\\\10.0.19041.0\\\\shared\\\\qos.h\",\
@@ -946,6 +884,9 @@
         \"ImportedHeaderUnits\": []\
     }\
 }",
+    files = {
+        [[src\Main.cpp]]
+    },
     values = {
         [[C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\HostX64\x64\cl.exe]],
         {
@@ -998,8 +939,5 @@
             "-external:W0",
             [[-external:IC:\Users\cleme\AppData\Local\.xmake\packages\q\qt5base\5.15.2\56a6d4e4dc1245439a319fe3789fb16f\include\QtCore]]
         }
-    },
-    files = {
-        [[src\Main.cpp]]
     }
 }

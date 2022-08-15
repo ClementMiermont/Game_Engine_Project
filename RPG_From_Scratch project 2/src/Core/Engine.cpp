@@ -1,6 +1,6 @@
 ﻿#include "Engine.hpp"
+#include "SDLINFO.h"
 #include "TextureManager.hpp"
-
 
 Engine * Engine::engine = nullptr;
 
@@ -19,8 +19,6 @@ const char *fragmentShaderSource = "#version 330 core\n"
     "   FragColor = ourColor;\n"
     "}\n\0";
 
-   
-
 
 bool Engine::Init()
 {   
@@ -31,13 +29,7 @@ bool Engine::Init()
     }
 
     //Specify the opengl context version
-
-    SDL_GL_SetAttribute(SDL_GL_CONTEXT_MAJOR_VERSION, 4);
-    SDL_GL_SetAttribute(SDL_GL_CONTEXT_MINOR_VERSION, 1);
-    SDL_GL_SetAttribute(SDL_GL_CONTEXT_PROFILE_MASK, SDL_GL_CONTEXT_PROFILE_CORE);
-
-    SDL_GL_SetAttribute(SDL_GL_DOUBLEBUFFER, 1);
-    SDL_GL_SetAttribute(SDL_GL_DEPTH_SIZE, 24);
+    
 
     GLenum GLError;
     
@@ -60,25 +52,40 @@ bool Engine::Init()
         return false;
        
     }
+   
+    //function to get informations about created window and sdl version
+    SDLINFO::getInstance()->getWindowTarget(Window);
 
-    if ( GLError!= GLEW_OK)
-    {
-        std::cout << "Error: " << glewGetErrorString(GLError) << std::endl;
+    /*SDL_GL_SetAttribute(SDL_GL_CONTEXT_MAJOR_VERSION, 4);
+    SDL_GL_SetAttribute(SDL_GL_CONTEXT_MINOR_VERSION, 1);
+    SDL_GL_SetAttribute(SDL_GL_CONTEXT_PROFILE_MASK, SDL_GL_CONTEXT_PROFILE_CORE);*/
+
+    SDL_GL_SetAttribute(SDL_GL_DOUBLEBUFFER, 1);
+    SDL_GL_SetAttribute(SDL_GL_DEPTH_SIZE, 24);
+
+    //GL
+    
+
+    TextureManager::getInstance()->load("Player", "graphics/Player.png");
+    glewInit();
+    
+    
+    GLError = glGetError();
+    glewExperimental = GL_TRUE;
+    if (GLError != GL_NO_ERROR)
+    {        std::cout << "Error: " << glewGetErrorString(GLError) << std::endl;
         return false;
     }
     else
-    {
-        std::cout << "Glew initialized" << std::endl;
+    {        std::cout << " No Error ! OpenGL has been initialized correctly " << std::endl;
+        
     }
-
-    TextureManager::getInstance()->load("Player", "graphics/Player.png");
+    
     return  m_isRunning = true;
 
-    
 
     //gl context use window
     
-   
 }
 
 bool Engine::clean()
@@ -88,7 +95,7 @@ bool Engine::clean()
     SDL_DestroyRenderer(Renderer);
     SDL_DestroyWindow(Window);
     IMG_Quit();
-    SDL_Quit();
+    /*SDL_Quit();*/
 
     m_isRunning = false;
     return false;
@@ -113,11 +120,10 @@ void Engine::Render()
         SDL_SetRenderDrawColor(Renderer, 255, 100, 255, 255);
         SDL_RenderClear(Renderer);
 
+        
         TextureManager::getInstance()->Draw("Player", 100, 100, 56, 104);
         SDL_RenderPresent(Renderer);
-
-        
-        
+                
     }
     
 }
@@ -140,12 +146,17 @@ void Engine::Events()
                             
          }                                        
                                 
-    case SDL_QUIT:
-        SDL_Log("SDL BUTTON X PRESSED SO QUIT");
-        clean();
-        break;
-                                                                
-                                       
+    case SDL_WINDOWEVENT :
+
+        switch (event.window.event)
+        {
+            case SDL_WINDOWEVENT_CLOSE:
+                SDL_Log("SDL_WINDOWEVENT_CLOSE: SDL_WINDOWEVENT_CLOSE PRESSED SO QUIT");
+                clean();
+                break;
+            
+        }    
+    
     case SDL_MOUSEBUTTONDOWN:
         if (event.button.button == SDL_BUTTON_LEFT)
         {
@@ -155,9 +166,7 @@ void Engine::Events()
         {
             SDL_Log("SDL_MOUSEBUTTONDOWN: SDL_BUTTON_RIGHT PRESSED");
         }
-
-
-        
+    
     default:
         break;
     }

@@ -5,6 +5,8 @@
 
 TextureManager * TextureManager::s_Instance = nullptr;
 
+
+
 bool TextureManager::load(std::string id, std::string filename)
 {
 
@@ -70,8 +72,6 @@ void TextureManager::Clean()
    }
 
    m_TextureMap.clear();
-
-   SDL_Log("texture map cleaned!");
 }
 
 

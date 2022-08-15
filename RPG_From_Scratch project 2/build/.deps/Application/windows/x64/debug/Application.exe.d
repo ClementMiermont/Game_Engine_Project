@@ -1,6 +1,7 @@
 {
     files = {
         [[build\.objs\Application\windows\x64\debug\src\Core\Engine.cpp.obj]],
+        [[build\.objs\Application\windows\x64\debug\src\Core\SDLINFO.cpp.obj]],
         [[build\.objs\Application\windows\x64\debug\src\Core\TextureManager.cpp.obj]],
         [[build\.objs\Application\windows\x64\debug\src\Main.cpp.obj]],
         [[build\.objs\Application\windows\x64\debug\src\Physics\Vector2D.cpp.obj]]
